@@ -152,7 +152,9 @@ main{
 .single,
 .circle,
 .rating,
-.znak {
+.znak,
+.product,
+.anim {
 	position: absolute;
 	margin-left: auto;
 	margin-right: auto;
@@ -175,6 +177,7 @@ main{
 	font-size: 15px;
 	left: -57px;
 	top: 645px;
+	overflow: hidden;
 }
 .text-image {
 	position: relative;
@@ -202,16 +205,16 @@ main{
 	color: #7ba8ec;
 	font-size: 19px;
 	text-decoration: line-through;
-	top: -112px;
-	left: -65px;
+	top: -114px;
+	left: -51px;
 	font-weight: 400;
 }
 .new {
 	transform: rotate(352.05deg);
 	font-size: 34px;
 	color: #ffffff;
-	top: -114px;
-	left: -40px;
+	top: -117px;
+	left: -14px;
 }
 .line-left2 img,
 .line-left3 img {
@@ -232,7 +235,20 @@ main{
 	margin-left: 40px;
 }
 main .buttons {
-	padding-top: 200px;
+	padding-top: 121px;
+	padding-bottom: 62px;
+}
+.carousel-btn {
+	width: 31px;
+	height: 31px;
+	background: #fff;
+	border-radius: 50%;
+	position: relative;
+	top: -150px;
+}
+.carousel-circle {
+	width: 500px;
+	margin: 0 auto;
 }
 .about-monta h2{
 	text-align: center;
@@ -248,4 +264,51 @@ main .buttons {
 	font-size: 17px;
 	font-weight: 400;
 	line-height: 25px;
+}
+.product {
+	top: 483px;
+    left: 348px;
+}
+.buttons .btn {
+    display: block;
+    width: 280px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: #972fe0;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border: none;
+	margin-right: 13px;
+	margin-left: 16px;
+    position: relative;
+}
+.buttons .btn-orange {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #f58b00;
+}
+.about-monta .buttons .btn-mini {
+	width: 119px;
+	height: 37px;
+	background-color: #f58b00;
+	margin-bottom: 20px;
+}
+.about-monta .buttons {
+	height: 86px;
+}
+.about-monta {
+	padding-top: 2px;
+}
+.anim {
+	top: 1047px;
+}
+.anim img {
+	width: 275px;
+}
+.line_1 {
+	margin-left: -60px;
 }
