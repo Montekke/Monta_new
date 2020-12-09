@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
@@ -19,49 +21,103 @@
     <header>
         <div class="container">
           <div class="d-flex align-items-center justify-content-between">
-            <a href="/" class="logo">
-              <img class='' loading='lazy' data-src="img/logo.svg" alt="">
-              <div class="descriptor">
-                Корректор осанки из США <img class='lazyload' loading='lazy' data-src="img/flag-usa.svg" alt="">
-              </div>
-            </a>
-            <div class="d-flex align-items-center">
+            <div class="d-flex flex-column">
+              <a href="/" class="logo">
+              <img class='' loading='lazy' src="img/monta_logo.png" alt="">
+              </a>
               <div class="desc">
-                Научит спину быть ровной и красивой за 21 день
+                Корректор осанки из США
               </div>
+            </div>
+            <div class="logo-text">
+              Исправь осанку <span>за 21 день</span>
+            </div>
+            <div class="d-flex flex-column align-items-center">
               <div class="right-contact">
-                <a href="https://api.whatsapp.com/send?phone=79777747925&text=" class="whatss visible-xs">
-                  <img class='lazyload' loading='lazy' data-src="img/phone4.png" alt="">
-                </a>
-                <a class='phone' href="tel:+74954814070">
-                  +7 (495) 481-40-70
+                <a href="https://api.whatsapp.com/send?phone=79777747925&text=" class="whatss">
+                  <img class='lazyload' loading='lazy' src="img/phone4.png" alt="">
                 </a>
                 <button class="button btn" data-toggle="modal" data-target="#exampleModal2">Заказать</button>
               </div>
+              <a class='phone' href="tel:+74954814070">
+                +7 (495) 481-40-70
+              </a>
             </div>
           </div>
+        </div>
+        <div class="h1-logo">
+          <h1>Корректор осанки <span>5в1</span></h1>
         </div>
       </header>
       <main>
         <div class="container">
-          <h1>Корректор осанки <span>5в1</span></h1>
           <div class="d-flex justify-content-center"> <!--Див со каруселью, описанием, картинками-->
-            <div class=""> <!--Общий див с картинкой и описанием этого говна-->
+            <div class="d-flex flex-column core-div"> <!--Общий див с картинкой и описанием этого говна-->
               
-              <div class="d-flex justify-content-center">
-                <div>Цена</div> <!--Ценник-->
-                <div>Увеличивает энергию</div>
+              <div class="d-flex justify-content-between line-1">
+                <div class="price-block">
+                  <div class="line-left1">
+                    <img src="img/price.png" alt="">
+                  </div> <!--Ценник-->
+                  <div class="old">
+                    3500
+                  </div>
+                  <div class="new">
+                    2490
+                  </div>
+                </div>
+                <div class="d-flex align-items-center line-right line1">
+                  <div><img src="img/1.png" alt=""></div>
+                  <div class="text-left">Увеличивает<br>энергию</div>
+                </div>
               </div>
-              <div class="d-flex justify-content-center">
-                <div>Выпрямляет спину</div>
-                <div>Улучшает самочувствие</div>
+              <div class="d-flex align-items-center justify-content-between line-2">
+                <div class="d-flex align-items-center line-left2">
+                  <div>Выпрямляет<br>спину</div>
+                  <div><img src="img/2.png" alt=""></div>
+                </div>
+                <div class="d-flex align-items-center line-right line2">
+                  <div><img src="img/3.png" alt=""></div>
+                  <div class="text-left">Улучшает<br>самочувствие</div>
+                </div>
               </div>
-              <div class="d-flex justify-content-center">
-                <div>Облегчает боль в спине и шее</div>
-                <div>Нормализует кровоснабжение</div>
+              <div class="d-flex justify-content-between line-3">
+                <div class="d-flex align-items-center line-left3">
+                  <div>Облегчает боль<br>в спине и шее</div>
+                  <div><img src="img/4.png" alt=""></div>
+                </div>
+                <div class="d-flex align-items-center line-right">
+                  <div><img src="img/5.png" alt=""></div>
+                  <div class="text-left">Нормализует<br>кровоснабжение</div>
+                </div>
               </div>
               <div>
-                <!--Див с рейтингом и пакетом -->
+                <!--Див с рейтингом и пакетом и каруселью -->
+                <div class="znak">
+                  <img src="img/znak.png" alt="">
+                </div>
+                <div class="circle">
+                  <img src="img/circle.png" alt="">
+                </div>
+                <div class="single">
+                  <div>
+                    <img src="img/img_1.png" alt="">
+                  </div>
+                  <div>
+                    <img src="" alt="">
+                  </div>
+                  <div>
+                    <img src="" alt="">
+                  </div>
+                </div>
+                <div class="rating">
+                  <div>
+                    <img src="img/rating.png" alt="">
+                  </div>
+                  <div class="text-image">
+                    на основе +4000 отзывов
+                  </div>
+                </div> 
               </div>
             </div>
           </div>
@@ -72,60 +128,70 @@
         </div>
       </main>
       <section class="about-monta">
+        <div>
+          <div class="buttons d-flex align-items-center flex-row-reverse relative ">
+            <button class="button btn" data-toggle="modal" data-target="#exampleModal2">Заказать</button>
+          </div>
+        </div>
         <div class="container">
           <h2>О кореекторе Monta</h2>
-          <div> <!--Общий див со всей хуйней-->
-            <div class="d-flex flex-column justify-content-center"> <!--Див с описанием без гифки-->
-              <div class="d-flex"> <!--Див для строки-->
+          <div>
+             <!--Общий див со всей хуйней-->
+            <div class="d-flex flex-column justify-content-center">
+               <!--Див с описанием без гифки-->
+              <div class="d-flex justify-content-between"> <!--Див для строки-->
                 <div class="d-flex"> <!--Див для описания и картинки-->
                   <div>
                     <h3>Универсальный</h3>
-                    <p>подходит детям и взрослым</p>
+                    <p>подходит детям<br>и взрослым</p>
                   </div>
                   <div>
-                    <img src="" alt="">
+                    <img src="img/about1.png" alt="">
                   </div>
                 </div>
                 <div class="d-flex"> <!--Див для описания и картинки-->
                   <div>
-                    <h3>Мягкий и прочный</h3>
-                    <p>сделан из медицинского неопрена</p>
+                    <img src="img/about2.png" alt="">
                   </div>
                   <div>
-                    <img src="" alt="">
+                    <h3>Мягкий<br>и прочный</h3>
+                    <p>сделан из<br>медицинского<br>неопрена</p>
                   </div>
                 </div>
               </div>
-              <div class="d-flex"> <!--Див для строки-->
+              <div class="d-flex justify-content-between"> <!--Див для строки-->
                 <div class="d-flex"> <!--Див для описания и картинки-->
                   <div>
-                    <h3>Запатентованая анатомическая форма</h3>
-                    <p>не давит и не натирает, учит вас держать осанку, а не просто поддерживает плечи</p>
+                    <h3>Запатентованая<br>анатомическая<br>форма</h3>
+                    <p>не давит и не натирает, учит<br>вас держать осанку, а не<br>просто поддерживает плечи</p>
                   </div>
                   <div>
-                    <img src="" alt="">
+                    <img src="img/about3.png" alt="">
                   </div>
                 </div>
                 <div class="d-flex"> <!--Див для описания и картинки-->
                   <div>
-                    <h3>Дышащая структура</h3>
+                    <img src="img/about4.png" alt="">
+                  </div>
+                  <div>
+                    <h3>Дышащая<br>структура</h3>
                     <p>кожа не преет</p>
-                  </div>
-                  <div>
-                    <img src="" alt="">
-                  </div>
+                  </div>    
                 </div>
               </div>
-              <div class="d-flex align-items-center"> <!--Див для строки-->
+              <div class="d-flex align-items-center justify-content-around"> <!--Див для строки-->
                 <div class="d-flex"> <!--Див для описания и картинки-->
                   <div>
-                    <h3>Не виден под одеждой</h3>
+                    <img src="img/about5.png" alt="">
                   </div>
                   <div>
-                    <img src="" alt="">
+                    <h3>Не виден под<br>одеждой</h3>
                   </div>
                 </div>
               </div>
+            </div>
+            <div> <!--Гифка-->
+
             </div>
           </div>
           <div class="buttons d-flex align-items-center justify-content-center relative ">
