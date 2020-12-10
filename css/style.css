@@ -408,3 +408,31 @@ h4 {
 .nonright-os {
 	color: #00992c;
 }
+.pad_ra {
+	margin-right: 30px;
+}
+.pad_le {
+	margin-left: 30px;
+}
+.ab_1 {
+	margin-left: -39px;
+	margin-bottom: 47px;
+}
+.ab_2 {
+	margin-right: -26px;
+}
+.ab_3 {
+	margin-left: -46px;
+}
+.ab_4 {
+	margin-right: -12px;
+}
+.ab_5 {
+	margin-left: -29px;
+}
+.ab_6 {
+	margin-right: -34px;
+}
+.ab_7 {
+	margin-right: -25px;
+}
