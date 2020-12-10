@@ -250,7 +250,7 @@ main .buttons {
 	width: 500px;
 	margin: 0 auto;
 }
-.about-monta h2{
+h2{
 	text-align: center;
 	font-size: 41px;
 	font-weight: 700;
@@ -264,6 +264,9 @@ main .buttons {
 	font-size: 17px;
 	font-weight: 400;
 	line-height: 25px;
+}
+.about-monta {
+	background-color: #fff;
 }
 .product {
 	top: 483px;
@@ -304,11 +307,104 @@ main .buttons {
 	padding-top: 2px;
 }
 .anim {
-	top: 1047px;
+    top: 1080px;
 }
 .anim img {
 	width: 275px;
 }
 .line_1 {
 	margin-left: -60px;
+}
+.line_2 {
+	margin-right: 42px;
+}
+.line_2 img {
+	margin-right: 30px;
+}
+.line_3 {
+	margin-left: -62px;
+}
+.line_4 {
+	margin-right: -4px;
+}
+.row_2 {
+	padding-top: 28px;
+}
+.text_1 {
+	margin-top: 61px;
+}
+.line_1 .text-right {
+	margin-top: 49px;
+}
+.line_1 .text-right p {
+	margin-right: 37px;
+}
+.line_3 .text-right {
+	margin-top: 16px;
+	margin-right: 20px;
+}
+.text_2 {
+	margin-top: 80px;
+	margin-left: 25px;
+}
+.text_3 {
+	margin-top: 155px;
+}
+.line_5 {
+	position: relative;
+    top: -132px;
+	left: 85px;
+	margin-bottom: -93px;
+}
+.about-monta .container .buttons {
+	padding-bottom: 103px;
+}
+.operating-priciple {
+	background-color: #ebebeb;
+}
+.operating-priciple h2 {
+	margin-bottom: 63px;
+	padding-top: 100px;
+}
+.operating-priciple .text-center {
+	margin-top: 26px;
+}
+.about_1 {
+	margin-top: 14px;
+}
+.about_2 {
+	margin-top: 2px;
+}
+h3 {
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 30px;
+}
+.operating-priciple .buttons {
+	margin-top: 86px;
+	padding-bottom: 102px;
+}
+.privilege {
+	background-color: #000;
+}
+.privilege h2 {
+	color: #fff;
+	padding-top: 105px;
+}
+h4 {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 500;
+	color: #ffffff;
+}
+.assessment {
+	font-size: 19px;
+	font-weight: 700;
+	margin: 0 auto;
+}
+.right-os {
+	color: #f01d1d;
+}
+.nonright-os {
+	color: #00992c;
 }
