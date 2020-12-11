@@ -154,7 +154,10 @@ main{
 .rating,
 .znak,
 .product,
-.anim {
+.anim,
+.osanka,
+.single2,
+.single_fon {
 	position: absolute;
 	margin-left: auto;
 	margin-right: auto;
@@ -357,7 +360,8 @@ h2{
 	margin-bottom: -93px;
 }
 .about-monta .container .buttons {
-	padding-bottom: 103px;
+	margin-top: 50px;
+    padding-bottom: 138px;
 }
 .operating-priciple {
 	background-color: #ebebeb;
@@ -390,6 +394,7 @@ h3 {
 .privilege h2 {
 	color: #fff;
 	padding-top: 105px;
+	margin-bottom: 80px;
 }
 h4 {
 	font-size: 20px;
@@ -408,6 +413,10 @@ h4 {
 .nonright-os {
 	color: #00992c;
 }
+.right-os,
+.nonright-os {
+	margin-right: 40px;
+}
 .pad_ra {
 	margin-right: 30px;
 }
@@ -420,19 +429,82 @@ h4 {
 }
 .ab_2 {
 	margin-right: -26px;
+	margin-top: -122px;
 }
 .ab_3 {
 	margin-left: -46px;
+	margin-bottom: 47px;
 }
 .ab_4 {
 	margin-right: -12px;
+	margin-top: -158px;
 }
 .ab_5 {
 	margin-left: -29px;
 }
 .ab_6 {
 	margin-right: -34px;
+	margin-top: -131px;
 }
 .ab_7 {
 	margin-right: -25px;
+	margin-top: -28px;
+}
+.osanka {
+	position: relative;
+	top: -480px;
+}
+.all_priv {
+	height: 500px;
+}
+.privilege .buttons {
+	margin-top: 30px;
+	padding-bottom: 105px;
+}
+.reviews p {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+	margin-top: 15px;
+}
+.reviews h2 {
+	padding-top: 95px;
+}
+.reviews .text-center img {
+	margin-top: 10px;
+}
+.single_fon {
+	position: relative;
+	top: 45px;
+}
+.single2 {
+	position: relative;
+	top: -430px;
+}
+.carus_fon {
+	height: 629px;
+}
+.video-reviews {
+	background-color: #222222;
+}
+.video-reviews h2 {
+	color: #fff;
+	padding-top: 100px;
+	margin-bottom: 95px;
+}
+.fancy_v {
+	padding: 0 155px;
+	margin-bottom: 85px;
+}
+.video-reviews .buttons .btn-orange {
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: none;
+	width: 232px;
+}
+.video-reviews .buttons {
+	padding-bottom: 105px;
+}
+.videos {
+	background-color: #d1d2d4;
 }
