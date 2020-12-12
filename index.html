@@ -369,6 +369,22 @@
               </div>
             </div>
           </div>
+          <div class="d-flex justify-content-between rew_heart">
+            <div class="rew_h1">
+              <img src="img/heart.png" alt="">
+            </div>
+            <div>
+              <img src="img/heart2.png" alt="">
+            </div>
+          </div>
+          <div class="carousel-circle d-flex align-items-center justify-content-between">
+            <div class="carousel-btn d-flex align-items-center justify-content-center">
+              <img class="lazyload" loading='lazy' src="img/carousel_btn.png" alt="">
+            </div>
+            <div class="carousel-btn d-flex align-items-center justify-content-center">
+              <img class="lazyload" loading='lazy' src="img/carousel_btn1.png" alt="">
+            </div>
+          </div>
         </div>
       </section>
       <section class="video-reviews">
@@ -394,32 +410,99 @@
       <section class="videos">
         <div class="container">
           <h2>Видео</h2>
-          <div class="d-flex align-items-center justify-content-center">
-            <div class="d-flex flex-column align-items-center">
-              <div>
+          <div class="d-flex align-items-center justify-content-center video_cont">
+            <div class="d-flex flex-column align-items-center div1">
+              <div >
                 <h3>Видео-отзыв врача</h3>
               </div>
-              <div>
+              <div class="vid1">
                 <a href="">
                   <img src="img/video1.png" alt=""> <!-- Фенсибокс с видео-->
                 </a>
               </div>
-              <div>
+              <div class="circle_vid1">
                 <img src="img/Vector_vid.png" alt="">
               </div>
             </div>
             <div class="d-flex flex-column align-items-center">
-              <div>
+              <div class="vid_h3">
                 <h3>Видео о корректоре</h3>
               </div>
-              <div>
+              <div class="vid2">
                 <a href="">
                   <img src="img/video2.png" alt=""> <!-- Фенсибокс с видео-->
                 </a>
               </div>
-              <div>
+              <div class="circle_vid2">
                 <img src="img/Vector_vid.png" alt="">
               </div>
+            </div>
+          </div>
+          <div class="buttons d-flex align-items-center justify-content-center relative ">
+            <button class="button btn" data-toggle="modal" data-target="#exampleModal2">Заказать корректор</button>
+            <a href="https://api.whatsapp.com/send?phone=79777747925&amp;text=" class="button btn btn-orange">Задать вопрос</a>
+          </div>
+        </div>
+      </section>
+      <section class="how-use">
+        <div class="container">
+          <h2>Как устроен корректор</h2>
+          <div class="d-flex flex-column">
+            <!--Общий див с картинкой-->
+            <div class="d-flex justify-content-between">
+              <!--Див со строкой-->
+              <div class="d-flex block1">
+                <!--Блок-->
+                <div class="text-right">
+                  <h3>Дышащая<br> подкладка</h3>
+                  <p>Подкладка из хлопка с<br> предусмотренными<br>
+                    отверстиями позволяет<br>
+                    коже дышать</p>
+                </div>
+                <div>
+                  <img src="img/img1.png" alt="">
+                </div>
+              </div>
+              <div class="d-flex block2 ">
+                <div>
+                  <img src="img/img2.png" alt="">
+                </div>
+                <div class="text-left">
+                  <h3>Надежные<br> крепления</h3>
+                  <p>Крепления корректора<br>
+                    позволяют надежно<br>
+                    фиксировать его на<br>
+                    фигуре</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div class="d-flex block3 align-items-center">
+                <!--Блок-->
+                <div class="text-right">
+                  <h3>Качественный<br> материал</h3>
+                  <p>Основная часть<br> корректора<br>
+                    выполнена из<br> медицинского Неопрена</p>
+                </div>
+                <div>
+                  <img src="img/img3.png" alt="">
+                </div>
+              </div>
+              <div class="d-flex block4 align-items-center">
+                <div>
+                  <img src="img/img4.png" alt="">
+                </div>
+                <div class="text-left">
+                  <h3>Лямки для<br> крепления и<br> регулировки</h3>
+                  <p>Лямки дают<br> возможность<br>
+                    изменять размер<br> корректора<br>
+                    и регулировать силу<br>
+                    натяжения</p>
+                </div>
+              </div>
+            </div>
+            <div class="woman">
+              <img src="img/woman.png" alt="">
             </div>
           </div>
           <div class="buttons d-flex align-items-center justify-content-center relative ">
@@ -431,64 +514,60 @@
       <section class="how-buy">
         <div class="container">
           <h2>Как заказать корректор</h2>
-          <div class="d-flex align-items-center justify-content-between"> <!--Див со всеми шарами и подписями-->
-            <div class="d-flex flex-column justify-content-center">
+          <div class="d-flex justify-content-between"> <!--Див со всеми шарами и подписями-->
+            <div class="d-flex flex-column align-items-center">
               <div> <!--Див с кругом-->
-                <img src="" alt="">
+                <img src="img/image1.png" alt="">
               </div>
               <div>
                 <h5>Заказ</h5>
               </div>
-              <div>
-                <p>Нажмите на кнопку "Заказать" или напишите нам в WhatsApp</p>
+              <div class="text-center">
+                <p>Нажмите на кнопку "Заказать"<br> или напишите нам в<br> WhatsApp</p>
               </div>
             </div>
-            <div class="d-flex flex-column justify-content-center">
+            <div class="d-flex flex-column align-items-center">
               <div> <!--Див с кругом-->
-                <img src="" alt="">
+                <img src="img/image2.png" alt="">
               </div>
               <div>
                 <h5>Доставка</h5>
               </div>
-              <div>
-                <p>Выберите способ доставки. От 1 до 7 дней. Стоимость доставки от 150 р.</p>
+              <div class="text-center">
+                <p>Выберите способ доставки.<br> От 1 до 7 дней.<br> Стоимость доставки от 150 р.</p>
               </div>
             </div>
-            <div class="d-flex flex-column justify-content-center">
+            <div class="d-flex flex-column align-items-center">
               <div> <!--Див с кругом-->
-                <img src="" alt="">
+                <img src="img/image3.png" alt="">
               </div>
               <div>
                 <h5>Оплата</h5>
               </div>
-              <div>
-                <p>Оплатите заказ при получении или на сайте</p>
+              <div class="text-center">
+                <p>Оплатите заказ при<br> получении или на сайте</p>
               </div>
             </div>
-            <div class="d-flex flex-column justify-content-center">
+            <div class="d-flex flex-column align-items-center">
               <div> <!--Див с кругом-->
-                <img src="" alt="">
+                <img src="img/image4.png" alt="">
               </div>
               <div>
                 <h5>Возврат</h5>
               </div>
-              <div>
-                <p>Товар проходит проверку перед отправкой, если что-то не понравится - мы оформим возврат</p>
+              <div class="text-center">
+                <p>Товар проходит проверку перед<br> отправкой, если что-то не понравится<br> - мы оформим возврат</p>
               </div>
             </div>
           </div>
           <div class="d-flex justify-content-between">
-            <div class="d-flex flex-column">
-              <button class="button btn" data-toggle="modal" data-target="#exampleModal2">Заказать корректор</button>
-              <a href="https://api.whatsapp.com/send?phone=79777747925&amp;text=" class="button btn btn-green">Задать вопрос</a>
+            <div class="d-flex flex-column buttons">
+              <button class="button btn" data-toggle="modal" data-target="#exampleModal2">Заказать</button>
+              <a href="https://api.whatsapp.com/send?phone=79777747925&amp;text=" class="button btn btn-wha">Whatsapp</a>
             </div>
-            <div>
-              <button class="button btn" data-toggle="modal" data-target="#exampleModal2">Тут надо оформить возврат</button>
+            <div class="buttons">
+              <a href="https://api.whatsapp.com/send?phone=79777747925&amp;text=" class="button btn btn-ref">Оформить возврат</a>
             </div>
-          </div>
-          <div class="buttons d-flex align-items-center justify-content-center relative ">
-            <button class="button btn" data-toggle="modal" data-target="#exampleModal2">Заказать корректор</button>
-            <a href="https://api.whatsapp.com/send?phone=79777747925&amp;text=" class="button btn btn-green">Задать вопрос</a>
           </div>
         </div>
       </section>
