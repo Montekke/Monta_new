@@ -161,7 +161,8 @@ main{
 .circle_vid1,
 .circle_vid2,
 .rew_heart,
-.woman {
+.woman,
+.strelka{
 	position: absolute;
 	margin-left: auto;
 	margin-right: auto;
@@ -614,13 +615,23 @@ h4 {
 	font-size: 28px;
 	color: #ffffff;
 	font-weight: 700;
+	margin-bottom: 25px;
 }
 .how-buy p {
 	font-size: 16px;
 	font-weight: 400;
 	color: #ffffff;
 }
-.how-buy .buttons .btn{
+.how-buy .buttonss .btn{
+	display: block;
+    border-radius: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border: none;
+	margin-right: 13px;
+	margin-left: 16px;
+    position: relative;
 	border: 2px solid #b066de;
 	background-color: #222222;
 	color: #b066de;
@@ -629,17 +640,198 @@ h4 {
 	width: 219px;
 	height: 43px;
 }
-.how-buy .buttons .btn-ref {
+.how-buy .buttonss .btn-ref {
 	border: 2px solid #aeaeae;
 	color: #aeaeae;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 }
-.how-buy .buttons .btn-wha {
+.how-buy .buttonss .btn-wha {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	border: 2px solid #7bcf78;
 	color: #7bcf78;
+}
+.strelka {
+	position: relative;
+	width: 580px;
+    top: -215px;
+    left: -15px;
+}
+.div2 {
+	height: 270px;
+}
+.how-buy .buttonss {
+	margin-bottom: 79px;
+}
+.how-buy .buttons {
+	padding-bottom: 100px;
+}
+.instruction {
+	background-color: #d2d3d6;
+}
+.instruction h2 {
+	padding-top: 100px;
+	margin-bottom: 30px;
+}
+.instruction h3 {
+	font-size: 22px;
+	margin-top: 12px;
+}
+.instruction p {
+	font-size: 17px;
+	font-weight: 500;
+}
+.pic2,
+.pic3 {
+	margin-top: 15px;
+}
+.pic5 {
+	margin-top: 4px;
+} 
+.inst_div {
+	width: 653px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.instruction .buttons {
+	padding-bottom: 100px;
+}
+.faq h2 {
+	padding-top: 100px;
+	margin-bottom: 80px;
+}
+.faq {
+	background-color: #bababa;
+}
+#accordion {
+	width: 762px;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+.card {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: none;
+	border-radius: 0;
+	margin-bottom: 4px;
+}
+.card-header:first-child {
+	border-radius: 0;
+}
+
+.card-header {
+	height: 72px;
+	padding: 0;
+	margin-bottom: 0;
+	background-color: transparent;
+	border-bottom: none;
+}
+.card-header .btn {
+	color: #000000;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24.91px;
+	text-align: left;
+	width: 100%;
+	padding-left: 50px;
+	padding-top: 12px;
+	padding-bottom: 17px;
+	text-decoration: none;
+	height: 72px;
+}
+.plus {
+	width: 19px;
+	height: 19px;
+	background-image: url(../img/plus.png);
+	background-size: cover;
+	display: block;
+	position: absolute;
+	right: 48px;
+	top: 27px;
+}
+.coll {
+	background-image: url(../img/plus.png);
+	background-size: cover;
+	width: 29px;
+	height: 29px;
+	background-repeat: no-repeat;
+	right: 40px;
+	top: 22px;
+}
+.card-body {
+	color: #000000;
+	font-weight: 500;
+	line-height: 21.81px;
+	padding-left: 50px;
+	padding-top: 0;
+	max-width: 507px;
+	font-size: 15px;
+}
+.faq .buttons {
+	padding-bottom: 100px;
+}
+footer {
+	background-color: #222222;
+}
+.up {
+	padding-top: 30px;
+
+}
+footer img {
+	margin-bottom: 35px;
+}
+footer a {
+	font-size: 14px;
+	font-weight: 700;
+	color: #ffffff;
+}
+.telefon {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: 500;
+	margin-bottom: 40px;
+	text-decoration: none;
+}
+footer p {
+	font-size: 12px;
+	color: #ffffff;
+	margin-top: 35px;
+	padding-bottom: 25px;
+}
+footer .buttons {
+	width: 1180px;
+	margin-left: -37px;
+	margin-top: 20px;
+}
+footer .buttons .btn {
+	width: 250px;
+}
+footer .buttons .btn-green {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #3eb356;
+}
+footer .btn-green img,
+footer .btn-insta img {
+	position: absolute;
+    left: 40px;
+    top: 17px;
+}
+footer .buttons .btn-insta {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-image: url(../img/insta.png);
+	background-size: cover;
 }
