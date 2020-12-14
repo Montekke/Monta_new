@@ -1,0 +1,911 @@
+@media (max-width:1304px) {
+    .anim {
+        top: 1023px;
+    }
+    .line_5 {
+        position: relative;
+        top:0;
+        left: 0px;
+        margin: 0 auto;
+        width: 455px;
+    }
+    .about-monta .container {
+        max-width: 1066px;
+    }
+    .privilege .container {
+        max-width: 1099px;
+    }
+    .videos img {
+        width: 430px;
+    }
+    .circle_vid1, .circle_vid2 {
+        background-size: 300px;
+        overflow: hidden;
+    }
+    .circle_vid1 {
+        top: -286px;
+        left: -122px;
+    }
+    .circle_vid2 {
+        top: -381px;
+        left: 115px;
+    }
+    .video_cont {
+        height: 48px;
+    }
+    .how-use .container {
+        max-width: 1041px;
+    }
+    .woman img {
+        width: 250px;
+    }
+    .how-use .buttons {
+        margin-top: 0px;
+    }
+}
+@media (max-width:1200px) {
+    h1 {
+        font-size: 44px;
+    }
+    h1 span {
+        font-size: 38px;
+    }
+    .h1-logo {
+        background-position: center top;
+        top: 90px;
+        background-size: 690px;
+    }
+    .znak {
+        top: 129px;
+        left: 533px;
+    }
+    .core-div {
+        font-size: 18px;
+    }
+    .circle {
+        display: none;
+    }
+    .hidden-md {
+        display: none !important;
+    }
+    .visible-md {
+        display: block !important;
+    }
+    main .container {
+        max-width: 940px;
+    }
+    .price-block {
+        position: relative;
+        top: -2px;
+        left: -57px;
+    }
+    .line-1 {
+        margin-bottom: -76px;
+    }
+    .line1 {
+        margin-right: 19px;
+    }
+    .line2 {
+        margin-right: 15px;
+    }
+    .line3 {
+        margin-left: 13px;
+    }
+    main .buttons {
+        padding-top: 80px;
+    }
+    .about-monta h3 {
+        font-size: 17px;
+    }
+    .line_5 {
+        top: -292px;
+    }
+    .anim {
+        top: 1040px;
+    }
+    .about-monta h2 {
+        margin-bottom: 50px;
+    }
+    .about-monta .visible-md {
+        height: 510px;
+    }
+    .operating-priciple h2 br {
+        display: none;
+    }
+    .operating-priciple h2 {
+        font-size: 31px;
+    }
+    .operating-priciple h3 {
+        font-size: 22px;
+    }
+    .operating-priciple .container{
+        max-width: 943px;
+    }
+    .operating-priciple img {
+        width: 300px;
+    }
+    .ab_1 {
+        margin-left: 0px;
+        margin-bottom: 47px;
+        margin-top: -61px;
+    }
+    .ab_2 {
+        margin-right: 0px;
+        margin-top: -100px;
+    }
+    .ab_3 {
+        margin-left: -4px;
+        margin-bottom: 47px;
+    }
+    .ab_4 {
+        margin-right: 7px;
+        margin-top: -67px;
+    }
+    .ab_5 {
+        margin-left: 5px;
+    }
+    .ab_6 {
+        margin-right: -4px;
+        margin-top: -95px;
+    }
+    .ab_7 {
+        margin-right: 0px;
+        margin-top: -79px;
+    }
+    .osanka {
+        position: relative;
+        top: -634px;
+    }
+    .privilege .buttons {
+        margin-top: 167px;
+        padding-bottom: 105px;
+    }
+    .reviews {
+        background-image: none;
+
+    }
+    .reviews .visible-md {
+        display: flex !important;
+    }
+    .rew_heart {
+        position: relative;
+        top: -597px;
+        width: 600px;
+    }
+    .rew_h1 {
+        margin-top: -15px;
+;
+    }
+    .rew_h2 {
+        margin-top: 69px;
+        margin-left: -83px;
+    }
+    .rew_h22 {
+        margin-top: 55px;
+        margin-right: -102px;
+    }
+    .rew_h3 {
+        margin-top: 122px;
+        margin-left: -10px;
+    }
+    .rew_h33 {
+        margin-top: 82px;
+        margin-right: -30px;
+    }
+    .video-reviews h2 {
+        font-size: 33px;
+    }
+    .fancy_v {
+        padding: 0;
+        margin-bottom: 85px;
+    }
+    .video-reviews .container {
+        max-width: 812px;
+    }
+    .video-reviews img {
+        width: 240px;
+        height: 422px;
+    }
+    .lastbaba {
+       display: none; 
+    }
+    .videos h2 {
+        font-size: 38px;
+        margin-bottom: 0;
+    }
+    .videos h3 {
+        font-size: 20px;
+    }
+    .circle_vid2,
+    .circle_vid1 {
+        display: none;
+    }
+    .circle_vid3 {
+        width: 462px;
+        height: 462px;
+        margin: 0 auto;
+    }
+    .video_cont {
+        height: 48px;
+        margin-top: -272px;
+    }
+    .videos .buttons {
+        margin-top: 229px;
+        padding-bottom: 105px;
+    }
+    .how-use h3 {
+        font-size: 20px;
+    }
+    .how-use h2 {
+        font-size: 36px;
+    }
+    .how-use p {
+        font-size: 16px;
+    }
+    .woman img {
+        width: auto;
+    }
+    .how-buy h2{
+        font-size: 38px;
+        margin-bottom: 25px;
+    }
+    .div_22 {
+        margin-top: -50px;
+    }
+    .how-buy .buttons {
+        margin-top: 525px;
+        padding-bottom: 100px;
+    }
+    .strelka {
+        position: relative;
+        width: 580px;
+        top: -805px;
+        left: -15px;
+    }
+    .strelka img {
+        margin-bottom: 388px;
+    }
+    .instruction h2,
+    .faq h2 {
+        font-size: 38px;
+    }
+    .instruction h3 {
+        font-size: 19px;
+    }
+    .instruction p {
+        font-size: 15px;
+    }
+    .instruction .container {
+        max-width: 944px;
+    }
+    footer .container {
+        max-width: 942px;
+    }
+    footer .buttons {
+        width: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+@media (max-width:960px) {
+    .privilege .container {
+        max-width: 663px;
+    }
+    .hidden-xs {
+        display: none !important;
+    }
+    h1 {
+        font-size: 43px;
+    }
+    .desc {
+        font-size: 14px;
+    }
+    .logo-text {
+        font-size: 16px;
+    }
+    header .phone {
+        font-size: 17px;
+    }
+    .price-block {
+        position: relative;
+        top: -2px;
+        left: -673px;
+    }
+    .old {
+        transform: rotate(352.05deg);
+        color: #7ba8ec;
+        font-size: 19px;
+        text-decoration: line-through;
+        top: -71px;
+        left: -51px;
+        font-weight: 400;
+    }
+    .new {
+        transform: rotate(352.05deg);
+        font-size: 34px;
+        color: #ffffff;
+        top: -72px;
+        left: -14px;
+    }
+    main .buttons {
+        padding-top: 295px;
+    }
+    .visible-xs {
+        display: block !important;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .anim {
+        top: 1049px;
+    }
+    .operating-priciple h2 {
+        font-size: 30px;
+    }
+    .operating-priciple h3 {
+        font-size: 25px;
+    }
+    .privilege .visible-xs {
+        margin-top: 404px;
+    }
+    .privilege .visible-xs  img {
+        width: 90px;
+    }
+    .assessment {
+        font-size: 17px;
+        font-weight: 700;
+        margin: 0 auto;
+    }
+    .privilege h2 {
+        margin-bottom: 30px;
+    }
+    .osanka img {
+        width: 410px;
+        height: 392px;
+    }
+    .osanka {
+        position: relative;
+        top: -758px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    .ab_4 {
+        margin: 0;
+        margin-right: 25px;
+    }
+    .ab_6 {
+        margin: 0;
+        margin-right: 32px;
+    }
+    .privilege .buttons {
+        margin-top: 283px;
+        padding-bottom: 105px;
+    }
+    .rew_heart {
+        position: relative;
+        top: -597px;
+        width: 514px;
+    }
+    .video-reviews img {
+        width: 197px;
+        height: 342px;
+    }
+    .video-reviews .container {
+        max-width: 718px;
+    }
+    .circle_vid2,
+    .circle_vid1 {
+        display: block;
+        top: -370px;
+        left: 0px;
+    }
+    .div1 {
+        margin: 0;
+        margin-bottom: -378px;
+    }
+    .video_cont {
+        height: 1113px;
+        margin-top: 0;
+    }
+    .videos .buttons {
+        margin-top: -422px;
+        padding-bottom: 105px;
+    }
+    .how-use p {
+        font-size: 14px;
+    }
+    .woman {
+        margin-top: 55px;
+    }
+    .woman img {
+        width: 255px;
+    }
+    .instruction h3 {
+        font-size: 19px;
+    }
+    .instruction .container {
+        max-width: 651px;
+    }
+    .pic4 {
+        margin-top: 11px;
+    }
+    #accordion {
+        width: 633px;
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+    footer .container {
+        max-width: 588px;
+    }
+    footer .visible-xs a {
+        font-size: 14px;
+        font-weight: 500;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:878px) {
+    .price-block {
+        position: relative;
+        top: -2px;
+        left: -600px;
+    }
+    .old {
+        transform: rotate(352.05deg);
+        color: #7ba8ec;
+        font-size: 19px;
+        text-decoration: line-through;
+        top: -76px;
+        left: -50px;
+        font-weight: 400;
+    }
+    .new {
+        transform: rotate(352.05deg);
+        font-size: 34px;
+        color: #ffffff;
+        top: -78px;
+        left: -14px;
+    }
+}
+@media (max-width:768px) {
+    .strelka {
+        position: relative;
+        width: 580px;
+        top: -791px;
+        left: -34px;
+    }
+    .whatss img {
+        width: 30px;
+    }
+    header .btn {
+        width: 105px;
+    }
+    .znak {
+        top: 129px;
+        left: 510px;
+    }
+    .price-block {
+        position: relative;
+        top: -71px;
+        left: -426px;
+    }
+    .old {
+        transform: rotate(352.05deg);
+        color: #7ba8ec;
+        font-size: 19px;
+        text-decoration: line-through;
+        top: -92px;
+        left: -51px;
+        font-weight: 400;
+    }
+    .new {
+        transform: rotate(352.05deg);
+        font-size: 34px;
+        color: #ffffff;
+        top: -96px;
+        left: -14px;
+    }
+    .anim img {
+        width: 210px;
+    }
+    .pica_1 img {
+        width: 170px;
+    }
+    .pica_2 img {
+        width: 140px;
+    }
+    .pica_3 img {
+        width: 140px;
+    }
+    .pica_4 img {
+        width: 185px;
+    }
+    .pica_5 img {
+        width: 225px;
+    }
+    .hidden-sm {
+        display: none !important;
+    }
+    .visible-sm {
+        display: block !important;
+    }
+    .line_5 {
+        top: -277px;
+    }
+    .privilege .visible-xs {
+        margin-top: 432px;
+    }
+    .osanka {
+        position: relative;
+        top: -790px;
+    }
+    .privilege .buttons {
+        margin-top: 337px;
+        padding-bottom: 105px;
+    }
+    .rew_heart {
+        position: relative;
+        top: -597px;
+        width: 421px;
+    }
+    .reviews .hidden-sm {
+        display: none !important;
+    }
+    .rew_heart {
+        position: relative;
+        top: -625px;
+        width: 421px;
+    }
+    .rew_h111 {
+        margin-top: -108px;
+    }
+    .video-reviews img {
+        width: 189px;
+        height: 337px;
+    }
+    .pict_1 img {
+        width: 125px;
+    }
+    .pict_2 img {
+        width: 125px;
+    }
+    .pict_3 img {
+        width: 130px;
+    }
+    .pict_4 img {
+        width: 130px;
+    }
+    .how-use .container {
+        max-width: 600px;
+    }
+    .how-buy h5 {
+        font-size: 25px;
+    }
+    .how-buy p {
+        font-size: 14px;
+    }
+    .pad-raf {
+        margin-right: -22px;
+    }
+    .instruction .container {
+        max-width: 591px;
+    }
+    .card-header .btn {
+        font-size: 17px;
+        padding-left: 9px;
+    }
+    #accordion {
+        width: 524px;
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+}
+@media (max-width:640px) {
+    .privilege .container {
+        max-width: 455px;
+    }
+    .hidden-m {
+        display: none !important;
+    }
+    .logo-text {
+        font-size: 22px;
+        letter-spacing: 1.32px;
+        color: #ceaae2;
+    }
+    .visible-m {
+        display: block !important;
+    }
+    h1 {
+        font-size: 42px;
+    }
+    h1 span {
+        display: inline;
+    }
+    header {
+        height: 137px;
+    }
+    .h1-logo {
+        background-position: center top;
+        top: 120px;
+        background-size: 690px;
+    }
+    .single {
+        top: 335px;
+    }
+    .rating {
+        color: #666666;
+        font-size: 15px;
+        left: -57px;
+        top: 714px;
+        overflow: hidden;
+    }
+    .product img {
+        width: 156px;
+    }
+    .product {
+        top: 575px;
+        left: 303px;
+    }
+    .znak {
+        top: 240px;
+        left: 268px;
+    }
+    .price-block {
+        position: relative;
+        top: -42px;
+        left: -262px;
+    }
+    .old {
+        transform: rotate(352.05deg);
+        color: #7ba8ec;
+        font-size: 19px;
+        text-decoration: line-through;
+        top: -103px;
+        left: -51px;
+        font-weight: 400;
+    }
+    .new {
+        transform: rotate(352.05deg);
+        font-size: 34px;
+        color: #ffffff;
+        top: -104px;
+        left: -14px;
+    }
+    main .buttons {
+        padding-top: 293px;
+    }
+    .about-monta .visible-m {
+        margin-top: 325px;
+    }
+    .about-monta h3 {
+        line-height: 20px;
+    }
+    .pica_3 {
+        margin-right: 30px;
+    }
+    .pica_4 {
+        margin-left: 48px;
+    }
+    .anim {
+        top: 1104px;
+    }
+    .anim img {
+        width: 292px;
+    }
+    .operating-priciple h2 {
+        margin-bottom: 63px;
+        padding-top: 50px;
+    }
+    .about-monta .container .buttons {
+        margin-top: 50px;
+        padding-bottom: 100px;
+    }
+    .operating-priciple h3 {
+        font-size: 22px;
+    }
+    .operating-priciple .buttons {
+        margin-top: 19px;
+        padding-bottom: 56px;
+    }
+    .right-os, .nonright-os {
+        margin-right: 18px;
+    }
+    .privilege .visible-m {
+        margin-top: 450px;
+    }
+    .privilege h4 {
+        font-size: 15px;
+    }
+    .osanka {
+        position: relative;
+        top: -1126px;
+    }
+    .privilege .buttons {
+        margin-top: 666px;
+        padding-bottom: 50px;
+    }
+    .privilege h2 {
+        padding-top: 55px;
+    }
+    .ab_4 {
+        margin: 0;
+        margin-right: 10px;
+    }
+    .ab_6 {
+        margin: 0;
+        margin-right: 7px;
+    }
+    .ab_3 {
+        margin-left: 4px;
+        margin-bottom: 0;
+    }
+    .ab_5 {
+        margin-left: 9px;
+    }
+    .reviews h2 {
+        padding-top: 50px;
+    }
+    .reviews {
+        height: 820px;
+    }
+    .video-reviews h2 {
+        color: #fff;
+        padding-top: 50px;
+        margin-bottom: 37px;
+    }
+    .video-reviews .container {
+        max-width: 375px;
+    }
+    .video-reviews img {
+        width: 154px;
+        height: 273px;
+    }
+    .vidos_f {
+        margin-bottom: 15px;
+    }
+    .fancy_v {
+        padding: 0;
+        margin-bottom: 13px;
+    }
+    .video-reviews .buttons .btn {
+        font-size: 10px;
+        font-weight: 100;
+    }
+    .video-reviews .buttons .button-click {
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: none;
+        width: 232px;
+    }
+    .video-reviews .buttons {
+        padding-bottom: 50px;
+    }
+    .videos h2 {
+        padding-top: 50px;
+    }
+    .videos img {
+        width: 320px;
+    }
+    .videos h3 {
+        font-size: 16px;
+        color: #fff;
+    }
+    .vid_h3 h3 {
+        margin-right: 167px;
+        font-size: 16px;
+    }
+    .vid_h33 h3 {
+        margin-right: -161px;
+    }
+    .circle_vid1 {
+        top: -323px;
+        left: -81px;
+    }
+    .circle_vid2 {
+        top: -324px;
+        left: 70px;
+    }
+    .videos .buttons {
+        margin-top: -472px;
+        padding-bottom: 50px;
+    }
+    .how-use h2 {
+        padding-top: 50px;
+        margin-bottom: 75px;
+    }
+    .woman {
+        margin-top: 397px;
+    }
+    .pict_1 img {
+        width: 170px;
+    }
+    .how-use h3 {
+        line-height: 20px;
+    }
+    .block1,
+    .block2 {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .woman img {
+        width: 286px;
+    }
+    .para2 {
+        margin-top: 500px;
+    }
+    .pict_4 img {
+        width: 170px;
+    }
+    .how-use .buttons {
+        padding-bottom: 50px;
+    }
+    .how-buy h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+        padding-top: 50px;
+    }
+    .strelka {
+        position: relative;
+        width: auto;
+        top: -834px;
+        left: 0%;
+        margin: 0 auto;
+    }
+    .how-buy .buttons {
+        margin-top: 500px;
+        padding-bottom: 50px;
+    }
+    .instruction h2 {
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
+    #accordion {
+        width: 425px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .coll {
+        background-image: url(../img/plus.png);
+        background-size: cover;
+        width: 29px;
+        height: 29px;
+        background-repeat: no-repeat;
+        right: 16px;
+        top: 22px;
+    }
+    .plus {
+        width: 19px;
+        height: 19px;
+        background-image: url(../img/plus.png);
+        background-size: cover;
+        display: block;
+        position: absolute;
+        right: 22px;
+        top: 27px;
+    }
+    .instruction .buttons {
+        padding-bottom: 50px;
+    }
+    .card-body {
+        padding-left: 20px;
+    }
+    .faq .buttons {
+        padding-bottom: 50px;
+    }
+    .faq h2 {
+        padding-top: 50px;
+        margin-bottom: 40px;
+    }
+    footer a {
+        font-size: 15px;
+        font-weight: 500;
+        color: #ffffff;
+        line-height: 19.44px;
+        margin-bottom: 23px;
+        font-family: 'Montserrat';
+    }
+    .pad-raf {
+        margin-right: 22px;
+    }
+}

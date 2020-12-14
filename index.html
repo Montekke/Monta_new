@@ -10,10 +10,11 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
-
+    <link rel="stylesheet" href="css/responsive.css">
 
     <title>Корректор осанки из США MONTA</title>
   </head>
@@ -29,7 +30,7 @@
                 Корректор осанки из США
               </div>
             </div>
-            <div class="logo-text">
+            <div class="logo-text hidden-m">
               Исправь осанку <span>за 21 день</span>
             </div>
             <div class="d-flex flex-column align-items-center">
@@ -44,51 +45,107 @@
               </a>
             </div>
           </div>
+          <div class="logo-text visible-m">
+            Исправь осанку <span>за 21 день</span>
+          </div>
         </div>
         <div class="h1-logo">
-          <h1>Корректор осанки <span>5в1</span></h1>
+          <h1 class="hidden-m">Корректор осанки <span>5в1</span></h1>
+          <h1 class="visible-m">Корректор<br> осанки <span>5в1</span></h1>
         </div>
+        
       </header>
       <main>
         <div class="container">
           <div class="d-flex justify-content-center"> <!--Див со каруселью, описанием, картинками-->
             <div class="d-flex flex-column core-div"> <!--Общий див с картинкой и описанием этого говна-->
-              
-              <div class="d-flex justify-content-between line-1">
-                <div class="price-block">
-                  <div class="line-left1">
-                    <img class="lazyload" loading='lazy' src="img/price.png" alt="">
-                  </div> <!--Ценник-->
-                  <div class="old">
-                    3500 &#8381;
+              <div class="hidden-md">
+                <div class="d-flex justify-content-between line-1">
+                  <div class="price-block">
+                    <div class="line-left1">
+                      <img class="lazyload" loading='lazy' src="img/price.png" alt="">
+                    </div> <!--Ценник-->
+                    <div class="old">
+                      3500 &#8381;
+                    </div>
+                    <div class="new">
+                      2490 &#8381;
+                    </div>
                   </div>
-                  <div class="new">
-                    2490 &#8381;
+                  <div class="d-flex align-items-center line-right line1">
+                    <div><img class="lazyload" loading='lazy' src="img/1.png" alt=""></div>
+                    <div class="text-left">Увеличивает<br>энергию</div>
                   </div>
                 </div>
-                <div class="d-flex align-items-center line-right line1">
-                  <div><img class="lazyload" loading='lazy' src="img/1.png" alt=""></div>
-                  <div class="text-left">Увеличивает<br>энергию</div>
+                <div class="d-flex align-items-center justify-content-between line-2">
+                  <div class="d-flex align-items-center line-left2">
+                    <div>Выпрямляет<br>спину</div>
+                    <div><img class="lazyload" loading='lazy' src="img/2.png" alt=""></div>
+                  </div>
+                  <div class="d-flex align-items-center line-right line2">
+                    <div><img class="lazyload" loading='lazy' src="img/3.png" alt=""></div>
+                    <div class="text-left">Улучшает<br>самочувствие</div>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between line-3">
+                  <div class="d-flex align-items-center line-left3">
+                    <div>Облегчает боль<br>в спине и шее</div>
+                    <div><img class="lazyload" loading='lazy' src="img/4.png" alt=""></div>
+                  </div>
+                  <div class="d-flex align-items-center line-right">
+                    <div><img class="lazyload" loading='lazy' src="img/5.png" alt=""></div>
+                    <div class="text-left">Нормализует<br>кровоснабжение</div>
+                  </div>
                 </div>
               </div>
-              <div class="d-flex align-items-center justify-content-between line-2">
-                <div class="d-flex align-items-center line-left2">
-                  <div>Выпрямляет<br>спину</div>
-                  <div><img class="lazyload" loading='lazy' src="img/2.png" alt=""></div>
+              <div class="visible-md hidden-xs">
+                <div class="d-flex justify-content-between line-1">
+                  <div class="price-block">
+                    <div class="line-left1">
+                      <img class="lazyload" loading='lazy' src="img/price.png" alt="">
+                    </div> <!--Ценник-->
+                    <div class="old">
+                      3500 &#8381;
+                    </div>
+                    <div class="new">
+                      2490 &#8381;
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column align-items-center line1">
+                    <div><img class="lazyload" loading='lazy' src="img/1.png" alt=""></div>
+                    <div class="text-center">Увеличивает<br>энергию</div>
+                  </div>
                 </div>
-                <div class="d-flex align-items-center line-right line2">
-                  <div><img class="lazyload" loading='lazy' src="img/3.png" alt=""></div>
-                  <div class="text-left">Улучшает<br>самочувствие</div>
+                <div class="d-flex align-items-center justify-content-between line-2">
+                  <div class="d-flex flex-column align-items-center">
+                    <div><img class="lazyload" loading='lazy' src="img/2.png" alt=""></div>
+                    <div class="text-center">Выпрямляет спину</div>
+                  </div>
+                  <div class="d-flex flex-column align-items-center line2">
+                    <div><img class="lazyload" loading='lazy' src="img/3.png" alt=""></div>
+                    <div class="text-center">Улучшает<br>самочувствие</div>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex flex-column align-items-center line3">
+                    <div><img class="lazyload" loading='lazy' src="img/4.png" alt=""></div>
+                    <div class="text-center">Облегчает боль<br>в спине и шее</div>
+                  </div>
+                  <div class="d-flex flex-column align-items-center">
+                    <div><img class="lazyload" loading='lazy' src="img/5.png" alt=""></div>
+                    <div class="text-center">Нормализует<br>кровоснабжение</div>
+                  </div>
                 </div>
               </div>
-              <div class="d-flex justify-content-between line-3">
-                <div class="d-flex align-items-center line-left3">
-                  <div>Облегчает боль<br>в спине и шее</div>
-                  <div><img class="lazyload" loading='lazy' src="img/4.png" alt=""></div>
+              <div class="visible-xs price-block">
+                <div class="line-left1">
+                  <img class="lazyload" loading='lazy' src="img/price.png" alt="">
+                </div> <!--Ценник-->
+                <div class="old">
+                  3500 &#8381;
                 </div>
-                <div class="d-flex align-items-center line-right">
-                  <div><img class="lazyload" loading='lazy' src="img/5.png" alt=""></div>
-                  <div class="text-left">Нормализует<br>кровоснабжение</div>
+                <div class="new">
+                  2490 &#8381;
                 </div>
               </div>
               <div>
@@ -101,23 +158,16 @@
                 </div>
                 <div class="single">
                   <div>
-                    <img class="lazyload" loading='lazy' src="img/img_1.png" alt="">
+                    <img class="lazyload " loading='lazy' src="img/img_1.png" alt="">
                   </div>
                   <div>
-                    <img class="lazyload" loading='lazy' src="" alt="">
+                    <img class="lazyload imaga" loading='lazy' src="img/img_2.png" alt="">
                   </div>
                   <div>
-                    <img class="lazyload" loading='lazy' src="" alt="">
+                    <img class="lazyload imaga" loading='lazy' src="img/img_3.png" alt="">
                   </div>
                 </div>
-                <div class="carousel-circle d-flex align-items-center justify-content-between">
-                  <div class="carousel-btn d-flex align-items-center justify-content-center">
-                    <img class="lazyload" loading='lazy' src="img/carousel_btn.png" alt="">
-                  </div>
-                  <div class="carousel-btn d-flex align-items-center justify-content-center">
-                    <img class="lazyload" loading='lazy' src="img/carousel_btn1.png" alt="">
-                  </div>
-                </div>
+                
                 <div class="rating">
                   <div>
                     <img class="lazyload" loading='lazy' src="img/rating.png" alt="">
@@ -147,10 +197,10 @@
           </div>
         </div>
         <div class="container">
-          <h2>О кореекторе Monta</h2>
+          <h2>О корректоре Monta</h2>
           <div>
              <!--Общий див со всей хуйней-->
-            <div class="d-flex flex-column justify-content-center">
+            <div class="d-flex flex-column justify-content-center hidden-md">
                <!--Див с описанием без гифки-->
               <div class="d-flex justify-content-between"> <!--Див для строки-->
                 <div class="d-flex line_1">
@@ -205,6 +255,112 @@
                 </div>
               </div>
             </div>
+
+            <div class="visible-md hidden-m d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <div class="d-flex flex-column">
+                  <div class="pica_1">
+                    <img class="lazyload" loading='lazy' src="img/about1.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h3>Универсальный</h3>
+                  </div>
+                </div>
+                <div class="d-flex flex-column">
+                  <div class="pica_2">
+                    <img class="lazyload" loading='lazy' src="img/about2.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h3>Мягкий<br>и прочный</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between">
+                <div class="d-flex flex-column">
+                  <div class="pica_3">
+                    <img class="lazyload" loading='lazy' src="img/about3.png" alt="">
+                  </div>
+                  <div class="text-center hidden-sm">
+                    <h3>Запатентованая<br>анатомическая форма</h3>
+                  </div>
+                  <div class="text-center visible-sm">
+                    <h3>Запатентованая<br>анатомическая<br> форма</h3>
+                  </div>
+                </div>
+                <div class="d-flex flex-column">
+                  <div class="pica_4">
+                    <img class="lazyload" loading='lazy' src="img/about4.png" alt="">
+                  </div>
+                  <div class="text-center hidden-sm">
+                    <h3>Дышащая структура</h3>
+                  </div> 
+                  <div class="text-center visible-sm">
+                    <h3>Дышащая<br> структура</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex flex-column align-items-center line_5">
+                <div class="pica_5">
+                  <img class="lazyload" loading='lazy' src="img/about5.png" alt="">
+                </div>
+                <div class="text-center hidden-sm">
+                  <h3>Не виден под одеждой</h3>
+                </div>
+                <div class="text-center visible-sm">
+                  <h3>Не виден<br> под одеждой</h3>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="visible-m">
+              <div class="d-flex justify-content-center align-items-center">
+                 <div class="pica_1">
+                   <img class="lazyload" loading='lazy' src="img/about1.png" alt="">
+                 </div>
+                 <div class="text-left">
+                   <h3>Универсальный</h3>
+                   <p>подходит детям<br>и взрослым</p>
+                 </div>
+              </div>
+              <div class="d-flex align-items-center justify-content-center ">
+                <div class="text-left">
+                  <h3>Запатентованая<br> анатомическая форма</h3>
+                  <p>не давит и не натирает, учит<br>вас держать осанку, а не<br>просто поддерживает плечи</p>
+                </div>
+                <div class="pica_2">
+                  <img class="lazyload" loading='lazy' src="img/about3.png" alt="">
+                </div>
+              </div>
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="pica_3">
+                  <img class="lazyload" loading='lazy' src="img/about2.png" alt="">
+                </div>
+                <div>
+                  <h3>Мягкий<br>и прочный</h3>
+                  <p>сделан из<br>медицинского<br>неопрена</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center justify-content-center">
+                <div class="text_2">
+                  <h3>Дышащая<br>структура</h3>
+                  <p>кожа не преет</p>
+                </div>
+                <div class="pica_4">
+                  <img class="lazyload" loading='lazy' src="img/about4.png" alt="">
+                </div>
+                   
+              </div>
+              <div class="d-flex flex-column align-items-center">
+                <div class="pica_5">
+                  <img class="lazyload" loading='lazy' src="img/about5.png" alt="">
+                </div>
+                <div>
+                  <h3>Не виден под одеждой</h3>
+                </div>
+              </div>
+            </div>
+
             <div class="anim"> <!--Гифка-->
               <img class="lazyload" loading='lazy' src="img/animation.gif" alt="">
             </div>
@@ -217,8 +373,8 @@
       </section>
       <section class="operating-priciple">
         <div class="container">
-          <h2>Принцип действия<br>корректора осанки</h2>
-          <div class="d-flex align-items-center justify-content-between"> <!--Див со строкой-->
+          <h2>Принцип действия<br> корректора осанки</h2>
+          <div class="d-flex align-items-center justify-content-between hidden-xs"> <!--Див со строкой-->
             <div class="d-flex flex-column about_1">
               <div>
                 <img class="lazyload" loading='lazy' src="img/about_1.png" alt="">
@@ -244,6 +400,61 @@
               </div>
             </div>
           </div>
+          <div class="d-flex visible-m"> <!--Див со строкой-->
+            <div class="d-flex flex-column justify-content-around align-items-center about_1">
+              <div>
+                <img class="lazyload" loading='lazy' src="img/about_1.png" alt="">
+              </div>
+              <div class="text-center">
+                <h3>Фиксирует плечи в <br> правильном положении</h3>
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-around align-items-center about_2">
+              <div>
+                <img class="lazyload" loading='lazy' src="img/about_2.png" alt="">
+              </div>
+              <div class="text-center">
+                <h3>Оказывает сопротивлиение <br> припопытке ссутулится</h3>
+              </div>
+              
+              
+            </div>
+            <div class="d-flex flex-column justify-content-around align-items-center">
+              <div>
+                <img class="lazyload" loading='lazy' src="img/about_3.png" alt="">
+              </div>
+              <div class="text-center">
+                <h3>Сигнализирует о том,<br>что нужно выпрямиться</h3>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex visible-xs hidden-m"> <!--Див со строкой-->
+            <div class="d-flex justify-content-around align-items-center about_1">
+              <div>
+                <img class="lazyload" loading='lazy' src="img/about_1.png" alt="">
+              </div>
+              <div class="text-left">
+                <h3>Фиксирует плечи<br>в правильном<br>положении</h3>
+              </div>
+            </div>
+            <div class="d-flex justify-content-around align-items-center about_2">
+              <div class="text-right">
+                <h3>Оказывает<br>сопротивлиение при<br>попытке ссутулится</h3>
+              </div>
+              <div>
+                <img class="lazyload" loading='lazy' src="img/about_2.png" alt="">
+              </div>
+              
+            </div>
+            <div class="d-flex justify-content-around align-items-center">
+              <div>
+                <img class="lazyload" loading='lazy' src="img/about_3.png" alt="">
+              </div>
+              <div class="text-left">
+                <h3>Сигнализирует о том,<br>что нужно<br>выпрямиться</h3>
+              </div>
+            </div>
+          </div>
           <div class="buttons d-flex align-items-center justify-content-center relative ">
             <button class="button btn" data-toggle="modal" data-target="#exampleModal2">Заказать корректор</button>
             <a href="https://api.whatsapp.com/send?phone=79777747925&amp;text=" class="button btn btn-orange">Задать вопрос</a>
@@ -265,7 +476,7 @@
                   </div>
               </div>
             </div>
-            <div class="d-flex flex-column"> <!--Див без картинки-->
+            <div class="d-flex flex-column hidden-md"> <!--Див без картинки-->
               <div class="d-flex justify-content-between"> <!--Див со строкой-->
                 <div class="d-flex align-items-center ab_1">
                   <div class="text-center pad_ra">
@@ -332,6 +543,205 @@
                 </div>
               </div>
             </div>
+            <div class="d-flex flex-column hidden-xs visible-md"> <!--Див без картинки-->
+              <div class="d-flex justify-content-between"> <!--Див со строкой-->
+                <div class="d-flex flex-column align-items-center ab_1">
+                  <div>
+                    <img class="lazyload" loading='lazy' src="img/priv_1.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h4>Приподнимает грудь<br>и уменьшает живот</h4>
+                  </div>
+                </div>
+                <div class="d-flex flex-column align-items-center ab_2">
+                  <div>
+                    <img class="lazyload" loading='lazy' src="img/priv_2.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h4>Укрепляет мышцы<br>плечевого пояса</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between"> <!--Див со строкой-->
+                <div class="d-flex flex-column align-items-center ab_3">
+                  <div>
+                    <img class="lazyload" loading='lazy' src="img/priv_3.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h4>Придаёт уверенности<br>и солидности</h4>
+                  </div>
+                  
+                </div>
+                <div class="d-flex align-items-center flex-column ab_4">
+                  <div>
+                    <img class="lazyload" loading='lazy' src="img/priv_4.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h4>Нормализует <br>кровообращение</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between"> <!--Див со строкой-->
+                <div class="d-flex align-items-center flex-column ab_5">
+                  <div>
+                    <img class="lazyload" loading='lazy' src="img/priv_5.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h4>Избавляет от болей<br>в спине и шее</h4>
+                  </div>
+                  
+                </div>
+                <div class="d-flex align-items-center flex-column ab_6">
+                  <div>
+                    <img class="lazyload" loading='lazy' src="img/priv_6.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h4>Внутренние органы<br>не сдавливаются</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between"> <!--Див со строкой-->
+                <div class="d-flex"></div>
+                <div class="d-flex align-items-center flex-column ab_7">
+                  <div>
+                    <img class="lazyload" loading='lazy' src="img/priv_7.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h4>Меньше затрат на<br>посещение врачей</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="visible-xs hidden-m  d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <div class="d-flex align-items-center ">
+                  <div>
+                    <img class="lazyload" loading='lazy' src="img/priv_1.png" alt="">
+                  </div>
+                  <div class="text-left">
+                    <h4>Приподнимает грудь и <br> уменьшает живот</h4>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center">
+                  <div>
+                    <img class="lazyload" loading='lazy' src="img/priv_3.png" alt="">
+                  </div>
+                  <div class="text-left">
+                    <h4>Придаёт уверенности<br>и солидности</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <div>
+                      <img class="lazyload" loading='lazy' src="img/priv_5.png" alt="">
+                    </div>
+                    <div class="text-left">
+                      <h4>Избавляет от болей в<br> спине и шее</h4>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center ab_4"> 
+                    <div>
+                      <img class="lazyload" loading='lazy' src="img/priv_2.png" alt="">
+                    </div>
+                    <div class="text-left">
+                      <h4>Укрепляет мышцы<br>плечевого пояса</h4>
+                    </div>
+                  </div>
+              </div>
+              <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <div>
+                      <img class="lazyload" loading='lazy' src="img/priv_7.png" alt="">
+                    </div>
+                    <div class="text-left">
+                      <h4>Меньше затрат на<br>посещение врачей</h4>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center ab_6">
+                    <div>
+                      <img class="lazyload" loading='lazy' src="img/priv_6.png" alt="">
+                    </div>
+                    <div class="text-center">
+                      <h4>Внутренние органы<br>не сдавливаются</h4>
+                    </div>
+                  </div>
+              </div>
+              <div class="d-flex align-items-center justify-content-center">
+                <div class="">
+                  <img class="lazyload" loading='lazy' src="img/priv_4.png" alt="">
+                </div>
+                <div class="text-left">
+                  <h4>Нормализует <br>кровообращение</h4>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="visible-m  d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                <div class="d-flex flex-column align-items-center ">
+                  <div>
+                    <img class="lazyload" loading='lazy' src="img/priv_1.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h4>Приподнимает грудь <br>и уменьшает живот</h4>
+                  </div>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <div>
+                    <img class="lazyload" loading='lazy' src="img/priv_3.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h4>Придаёт уверенности<br>и солидности</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between">
+                  <div class="d-flex flex-column align-items-center ab_3">
+                    <div>
+                      <img class="lazyload" loading='lazy' src="img/priv_5.png" alt="">
+                    </div>
+                    <div class="text-center">
+                      <h4>Избавляет от болей <br>в спине и шее</h4>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column align-items-center ab_4"> 
+                    <div>
+                      <img class="lazyload" loading='lazy' src="img/priv_2.png" alt="">
+                    </div>
+                    <div class="text-center">
+                      <h4>Укрепляет мышцы<br>плечевого пояса</h4>
+                    </div>
+                  </div>
+              </div>
+              <div class="d-flex justify-content-between">
+                  <div class="d-flex flex-column align-items-center ab_5">
+                    <div>
+                      <img class="lazyload" loading='lazy' src="img/priv_7.png" alt="">
+                    </div>
+                    <div class="text-center">
+                      <h4>Меньше затрат на<br>посещение врачей</h4>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column align-items-center ab_6">
+                    <div>
+                      <img class="lazyload" loading='lazy' src="img/priv_6.png" alt="">
+                    </div>
+                    <div class="text-center">
+                      <h4>Внутренние органы<br>не сдавливаются</h4>
+                    </div>
+                  </div>
+              </div>
+              <div class="d-flex flex-column align-items-center justify-content-center">
+                <div class="">
+                  <img class="lazyload" loading='lazy' src="img/priv_4.png" alt="">
+                </div>
+                <div class="text-center">
+                  <h4>Нормализует <br>кровообращение</h4>
+                </div>
+              </div>
+            </div>
             <div class="osanka">
               <img src="img/osanka.png" alt="">
             </div>
@@ -349,7 +759,7 @@
             <div class="text-center">
               <img src="img/rating4.png" alt="">
             </div>
-            <p class="text-center">Оценка кореектора 4,7 <br> на основе 4000+ отзывов</p>
+            <p class="text-center">Оценка корректора 4,7 <br> на основе 4000+ отзывов</p>
           </div>
           <div class="carus_fon">
             <!--Карусель с телефоном-->
@@ -362,10 +772,63 @@
                 <img class="lazyload" loading='lazy' src="img/otzivfon.png" alt="">
               </div>
               <div>
-                <img class="lazyload" loading='lazy' src="" alt="">
+                <img class="lazyload imaga2" loading='lazy' src="img/otziv/2-otzyv.png" alt="">
               </div>
               <div>
-                <img class="lazyload" loading='lazy' src="" alt="">
+                <img class="lazyload imaga2" loading='lazy' src="img/otziv/3-otzyv.png" alt="">
+              </div>
+              <div>
+                <img class="lazyload imaga2" loading='lazy' src="img/otziv/3(2)-otzyv.png" alt="">
+              </div>
+              
+              <div>
+                <img class="lazyload imaga2" loading='lazy' src="img/otziv/4-otzyv.png" alt="">
+              </div>
+              <div>
+                <img class="lazyload imaga2" loading='lazy' src="img/otziv/5-otzyv.png" alt="">
+              </div>
+              <div>
+                <img class="lazyload imaga2" loading='lazy' src="img/otziv/6-otzyv.png" alt="">
+              </div>
+              <div>
+                <img class="lazyload imaga2" loading='lazy' src="img/otziv/6(2)-otzyv.png" alt="">
+              </div>
+              <div>
+                <img class="lazyload imaga2" loading='lazy' src="img/otziv/7-otzyv.png" alt="">
+              </div>
+              <div>
+                <img class="lazyload imaga2" loading='lazy' src="img/otziv/7(2)-otzyv.png" alt="">
+              </div>
+              <div>
+                <img class="lazyload imaga2" loading='lazy' src="img/otziv/8-otzyv.png" alt="">
+              </div>
+              <div>
+                <img class="lazyload imaga2" loading='lazy' src="img/otziv/8(2)-otzyv.png" alt="">
+              </div>
+              
+              <div>
+                <img class="lazyload imaga2" loading='lazy' src="img/otziv/9-otzyv.png" alt="">
+              </div>
+              <div>
+                <img class="lazyload imaga2" loading='lazy' src="img/otziv/10-otzyv.png" alt="">
+              </div>
+              <div>
+                <img class="lazyload imaga2" loading='lazy' src="img/otziv/10(2)-otzyv.png" alt="">
+              </div>
+              <div>
+                <img class="lazyload imaga2" loading='lazy' src="img/otziv/11-otzyv.png" alt="">
+              </div>
+              <div>
+                <img class="lazyload imaga2" loading='lazy' src="img/otziv/12-otzyv.png" alt="">
+              </div>
+              <div>
+                <img class="lazyload imaga2" loading='lazy' src="img/otziv/13-otzyv.png" alt="">
+              </div>
+              <div>
+                <img class="lazyload imaga2" loading='lazy' src="img/otziv/14-otzyv.png" alt="">
+              </div>
+              <div>
+                <img class="lazyload imaga2" loading='lazy' src="img/otziv/15-otzyv.png" alt="">
               </div>
             </div>
           </div>
@@ -373,16 +836,24 @@
             <div class="rew_h1">
               <img src="img/heart.png" alt="">
             </div>
-            <div>
+            <div class="rew_h111">
               <img src="img/heart2.png" alt="">
             </div>
           </div>
-          <div class="carousel-circle d-flex align-items-center justify-content-between">
-            <div class="carousel-btn d-flex align-items-center justify-content-center">
-              <img class="lazyload" loading='lazy' src="img/carousel_btn.png" alt="">
+          <div class="hidden-md visible-md d-flex justify-content-between rew_heart hidden-sm">
+            <div class="rew_h2">
+              <img src="img/chatheart.png" alt="">
             </div>
-            <div class="carousel-btn d-flex align-items-center justify-content-center">
-              <img class="lazyload" loading='lazy' src="img/carousel_btn1.png" alt="">
+            <div class="rew_h22">
+              <img src="img/star.png" alt="">
+            </div>
+          </div>
+          <div class="hidden-md visible-md d-flex justify-content-between rew_heart hidden-sm">
+            <div class="rew_h3">
+              <img src="img/star.png" alt="">
+            </div>
+            <div class="rew_h33">
+              <img src="img/class.png" alt="">
             </div>
           </div>
         </div>
@@ -390,27 +861,147 @@
       <section class="video-reviews">
         <div class="container">
           <h2>Видео-отзывы</h2>
-          <div class="fancy_v d-flex align-items-center justify-content-between">
+          <div class="fancy_v hidden-m d-flex align-items-center justify-content-between">
             <!--Видосы с фенсибоксом-->
             <div>
-              <img src="img/vid1.png" alt="">
+              <a data-fancybox="gallery" href="https://youtu.be/LAt8XnDd7uc"><img src="img/vid1.png" alt=""></a>
             </div>
             <div>
-              <img src="img/vid2.png" alt="">
+              <a data-fancybox="gallery" href="https://youtu.be/i9p1m3KBJvU"><img src="img/vid2.png" alt=""></a>
             </div>
             <div>
-              <img src="img/vid3.png" alt="">
+              <a data-fancybox="gallery" href="https://youtu.be/1HEVNh5Cqw8"><img src="img/vid3.png" alt=""></a>
             </div>
           </div>
-          <div class="buttons d-flex align-items-center justify-content-center relative ">
-            <a href="https://api.whatsapp.com/send?phone=79777747925&amp;text=" class="button btn btn-orange">Ещё отзывы</a>
+
+
+          <div class="fancy_v visible-m d-flex align-items-center justify-content-center">
+            <!--Видосы с фенсибоксом-->
+            <div class="d-flex vidos_f align-items-center justify-content-between">
+              <div>
+                <a data-fancybox="gallery" href="https://youtu.be/LAt8XnDd7uc"><img src="img/vid1.png" alt=""></a>
+              </div>
+              <div>
+                <a data-fancybox="gallery" href="https://youtu.be/i9p1m3KBJvU"><img src="img/vid2.png" alt=""></a>
+              </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <div>
+              <a data-fancybox="gallery" href="https://youtu.be/1HEVNh5Cqw8"><img src="img/vid3.png" alt=""></a>
+              </div>
+              <div>
+                <a data-fancybox="gallery" href="https://youtu.be/WhzbLUVY9-o"><img class="imaga3" src="img/video/4-video-otzyv.jpg" alt=""></a>
+              </div>
+            </div>
+          </div>
+          
+
+          
+          <div class="buttons  d-flex align-items-center justify-content-center relative ">
+            <button class="button button-visible btn btn-orange" data-toggle="modal" data-target="#exampleModal2">Ещё отзывы</button>
+          </div>
+          <div class="reviews2">
+
+            <div class="d-flex visible-m flex-column">
+              <div class="fancy_v d-flex align-items-center justify-content-between">
+                <!--Видосы с фенсибоксом-->
+                <div>
+                  <a data-fancybox="gallery" href="https://youtu.be/GXmhcYcvmUA"><img class="imaga3" src="img/video/5-video-otzyv.jpg" alt=""></a>
+                </div>
+                <div>
+                  <a data-fancybox="gallery" href="https://youtu.be/JOAUbzpWR_k"><img class="imaga3" src="img/video/6-video-otzyv.jpg" alt=""></a>
+                </div>
+              </div>
+              <div class="fancy_v2 vidos_f d-flex align-items-center justify-content-between">
+                <!--Видосы с фенсибоксом-->
+                <div>
+                  <a data-fancybox="gallery" href="https://youtu.be/cqvVZEQNeSQ"><img class="imaga3" src="img/video/7-video-otzyv.jpg" alt=""></a>
+                </div>
+                <div>
+                  <a data-fancybox="gallery" href="https://youtu.be/9tnXE_xVQiI"><img class="imaga3" src="img/video/8-video-otzyv.jpg" alt=""></a>
+                </div>
+                
+              </div>
+              <div class="fancy_v2 d-flex align-items-center justify-content-between">
+                <!--Видосы с фенсибоксом-->
+                <div>
+                  <a data-fancybox="gallery" href="https://youtu.be/btvMZtwxrrA"><img class="imaga3" src="img/video/9-video-otzyv.jpg" alt=""></a>
+                </div>
+                <div class="">
+                  <a data-fancybox="gallery" href="https://youtu.be/Y9jtvpc5wh4"><img class="imaga3" src="img/video/10-video-otzyv.jpg" alt=""></a>
+                </div>
+              </div>
+          </div>
+
+            <div class="d-flex hidden-m flex-column">
+                <div class="fancy_v d-flex align-items-center justify-content-between">
+                  <!--Видосы с фенсибоксом-->
+                  <div>
+                    <a data-fancybox="gallery" href="https://youtu.be/WhzbLUVY9-o"><img class="imaga3" src="img/video/4-video-otzyv.jpg" alt=""></a>
+                  </div>
+                  <div>
+                    <a data-fancybox="gallery" href="https://youtu.be/GXmhcYcvmUA"><img class="imaga3" src="img/video/5-video-otzyv.jpg" alt=""></a>
+                  </div>
+                  <div>
+                    <a data-fancybox="gallery" href="https://youtu.be/JOAUbzpWR_k"><img class="imaga3" src="img/video/6-video-otzyv.jpg" alt=""></a>
+                  </div>
+                </div>
+                <div class="fancy_v2 d-flex align-items-center justify-content-between">
+                  <!--Видосы с фенсибоксом-->
+                  <div>
+                    <a data-fancybox="gallery" href="https://youtu.be/cqvVZEQNeSQ"><img class="imaga3" src="img/video/7-video-otzyv.jpg" alt=""></a>
+                  </div>
+                  <div>
+                    <a data-fancybox="gallery" href="https://youtu.be/9tnXE_xVQiI"><img class="imaga3" src="img/video/8-video-otzyv.jpg" alt=""></a>
+                  </div>
+                  <div>
+                    <a data-fancybox="gallery" href="https://youtu.be/btvMZtwxrrA"><img class="imaga3" src="img/video/9-video-otzyv.jpg" alt=""></a>
+                  </div>
+                  <div class="lastbaba">
+                    <a data-fancybox="gallery" href="https://youtu.be/Y9jtvpc5wh4"><img class="imaga3" src="img/video/10-video-otzyv.jpg" alt=""></a>
+                  </div>
+                </div>
+            </div>
+            <div class="buttons d-flex align-items-center justify-content-center relative ">
+              <button class="button btn" data-toggle="modal" data-target="#exampleModal2">Заказать корректор</button>
+              <a href="https://api.whatsapp.com/send?phone=79777747925&amp;text=" class="button btn btn-orange">Задать вопрос</a>
+            </div>
           </div>
         </div>
       </section>
       <section class="videos">
         <div class="container">
           <h2>Видео</h2>
-          <div class="d-flex align-items-center justify-content-center video_cont">
+          <div class="circle_vid3 hidden-md hidden-xs visible-md"></div>
+          
+          <div class="visible-xs">
+            <div class="d-flex flex-column align-items-center justify-content-center video_cont ">
+              <div class="d-flex flex-column align-items-center div1">
+                <div class="vid_h3">
+                  <h3>Видео-отзыв врача</h3>
+                </div>
+                <div class="vid1">
+                  <a href="">
+                    <img src="img/video1.png" alt=""> <!-- Фенсибокс с видео-->
+                  </a>
+                </div>
+                <div class="circle_vid1"></div>
+              </div>
+              <div class="d-flex flex-column align-items-center">
+                <div class="vid_h3 vid_h33">
+                  <h3>Видео о корректоре</h3>
+                </div>
+                <div class="vid2">
+                  <a href="">
+                    <img src="img/video2.png" alt=""> <!-- Фенсибокс с видео-->
+                  </a>
+                </div>
+                <div class="circle_vid2"></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="d-flex align-items-center justify-content-center video_cont hidden-xs">
             <div class="d-flex flex-column align-items-center div1">
               <div >
                 <h3>Видео-отзыв врача</h3>
@@ -420,9 +1011,7 @@
                   <img src="img/video1.png" alt=""> <!-- Фенсибокс с видео-->
                 </a>
               </div>
-              <div class="circle_vid1">
-                <img src="img/Vector_vid.png" alt="">
-              </div>
+              <div class="circle_vid1"></div>
             </div>
             <div class="d-flex flex-column align-items-center">
               <div class="vid_h3">
@@ -433,9 +1022,7 @@
                   <img src="img/video2.png" alt=""> <!-- Фенсибокс с видео-->
                 </a>
               </div>
-              <div class="circle_vid2">
-                <img src="img/Vector_vid.png" alt="">
-              </div>
+              <div class="circle_vid2"></div>
             </div>
           </div>
           <div class="buttons d-flex align-items-center justify-content-center relative ">
@@ -449,58 +1036,178 @@
           <h2>Как устроен корректор</h2>
           <div class="d-flex flex-column">
             <!--Общий див с картинкой-->
-            <div class="d-flex justify-content-between">
-              <!--Див со строкой-->
-              <div class="d-flex block1">
-                <!--Блок-->
-                <div class="text-right">
-                  <h3>Дышащая<br> подкладка</h3>
-                  <p>Подкладка из хлопка с<br> предусмотренными<br>
-                    отверстиями позволяет<br>
-                    коже дышать</p>
+            <div class="hidden-md">
+              <div class="d-flex justify-content-between">
+                <!--Див со строкой-->
+                <div class="d-flex block1">
+                  <!--Блок-->
+                  <div class="text-right">
+                    <h3>Дышащая<br> подкладка</h3>
+                    <p>Подкладка из хлопка с<br> предусмотренными<br>
+                      отверстиями позволяет<br>
+                      коже дышать</p>
+                  </div>
+                  <div>
+                    <img src="img/img1.png" alt="">
+                  </div>
                 </div>
-                <div>
-                  <img src="img/img1.png" alt="">
+                <div class="d-flex block2 ">
+                  <div>
+                    <img src="img/img2.png" alt="">
+                  </div>
+                  <div class="text-left">
+                    <h3>Надежные<br> крепления</h3>
+                    <p>Крепления корректора<br>
+                      позволяют надежно<br>
+                      фиксировать его на<br>
+                      фигуре</p>
+                  </div>
                 </div>
               </div>
-              <div class="d-flex block2 ">
-                <div>
-                  <img src="img/img2.png" alt="">
+              <div class="d-flex justify-content-between hidden-md">
+                <div class="d-flex block3 align-items-center">
+                  <!--Блок-->
+                  <div class="text-right">
+                    <h3>Качественный<br> материал</h3>
+                    <p>Основная часть<br> корректора<br>
+                      выполнена из<br> медицинского Неопрена</p>
+                  </div>
+                  <div>
+                    <img src="img/img3.png" alt="">
+                  </div>
                 </div>
-                <div class="text-left">
-                  <h3>Надежные<br> крепления</h3>
-                  <p>Крепления корректора<br>
-                    позволяют надежно<br>
-                    фиксировать его на<br>
-                    фигуре</p>
+                <div class="d-flex block4 align-items-center">
+                  <div>
+                    <img src="img/img4.png" alt="">
+                  </div>
+                  <div class="text-left">
+                    <h3>Лямки для<br> крепления и<br> регулировки</h3>
+                    <p>Лямки дают<br> возможность<br>
+                      изменять размер<br> корректора<br>
+                      и регулировать силу<br>
+                      натяжения</p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="d-flex justify-content-between">
-              <div class="d-flex block3 align-items-center">
-                <!--Блок-->
-                <div class="text-right">
-                  <h3>Качественный<br> материал</h3>
-                  <p>Основная часть<br> корректора<br>
-                    выполнена из<br> медицинского Неопрена</p>
+
+            <div class="visible-md hidden-m">
+              <div class="d-flex  justify-content-between">
+                <!--Див со строкой-->
+                <div class="d-flex align-items-center flex-column">
+                  <!--Блок-->
+                  <div class="pict_1">
+                    <img src="img/img1.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h3 class="hidden-sm">Дышащая подкладка</h3>
+                    <h3 class="visible-sm">Дышащая<br> подкладка</h3>
+                    <p>Подкладка из хлопка с<br> предусмотренными<br>
+                      отверстиями позволяет<br>
+                      коже дышать</p>
+                  </div>
                 </div>
-                <div>
-                  <img src="img/img3.png" alt="">
+                <div class="d-flex align-items-center flex-column">
+                  <div class="pict_2">
+                    <img src="img/img2.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h3 class="hidden-sm">Надежные крепления</h3>
+                    <h3 class="visible-sm">Надежные<br> крепления</h3>
+                    <p>Крепления корректора<br>
+                      позволяют надежно<br>
+                      фиксировать его на<br>
+                      фигуре</p>
+                  </div>
                 </div>
               </div>
-              <div class="d-flex block4 align-items-center">
-                <div>
-                  <img src="img/img4.png" alt="">
+              <div class="d-flex justify-content-between">
+                <div class="d-flex flex-column align-items-center">
+                  <!--Блок-->
+                  <div class="pict_3">
+                    <img src="img/img3.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h3>Качественный<br> материал</h3>
+                    <p class="hidden-sm">Основная часть корректора<br>
+                      выполнена из медицинского Неопрена</p>
+                      <p class="visible-sm">Основная часть<br> корректора
+                        выполнена<br> из медицинского Неопрена</p>
+                  </div>
                 </div>
-                <div class="text-left">
-                  <h3>Лямки для<br> крепления и<br> регулировки</h3>
-                  <p>Лямки дают<br> возможность<br>
-                    изменять размер<br> корректора<br>
-                    и регулировать силу<br>
-                    натяжения</p>
+                <div class="d-flex flex-column align-items-center">
+                  <div class="pict_4">
+                    <img src="img/img4.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h3>Лямки для крепления и<br> регулировки</h3>
+                    <p>Лямки дают возможность<br>
+                      изменять размер корректора<br>
+                      и регулировать силу<br>
+                      натяжения</p>
+                  </div>
                 </div>
               </div>
             </div>
+
+              <div class="visible-m">
+                  <div class="d-flex align-items-center flex-column">
+                    <div class="d-flex block1">
+                      <!--Блок-->
+                      <div class="pict_1">
+                        <img src="img/img1.png" alt="">
+                      </div>
+                      <div class="text-left">
+                        <h3>Дышащая<br> подкладка</h3>
+                        <p>Подкладка из хлопка с<br> предусмотренными<br>
+                          отверстиями позволяет<br>
+                          коже дышать</p>
+                      </div>
+                    </div>
+                    <div class="d-flex">
+                      <!--Блок-->
+                      <div class="text-left">
+                        <h3>Качественный<br> материал</h3>
+                        <p>Основная часть<br> корректора<br>
+                          выполнена из<br> медицинского <br>Неопрена</p>
+                      </div>
+                      <div>
+                        <img src="img/img3.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="visible-m para2">
+                  <div class="d-flex align-items-center flex-column ">
+                    <div class="d-flex block2">
+                        <div>
+                          <img src="img/img2.png" alt="">
+                        </div>
+                        <div class="text-left">
+                          <h3>Надежные<br> крепления</h3>
+                          <p>Крепления корректора<br>
+                            позволяют надежно<br>
+                            фиксировать его на<br>
+                            фигуре</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                      
+                      <div class="text-left">
+                        <h3>Лямки для<br> крепления и<br> регулировки</h3>
+                        <p>Лямки дают возможность<br>
+                          изменять размер корректора<br>
+                          и регулировать силу<br>
+                          натяжения</p>
+                      </div>
+                      <div class="pict_4">
+                        <img src="img/img4.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
             <div class="woman">
               <img src="img/woman.png" alt="">
             </div>
@@ -514,7 +1221,7 @@
       <section class="how-buy">
         <div class="container">
           <h2>Как заказать корректор</h2>
-          <div class="div2">
+          <div class="div2 hidden-md">
             <div class="d-flex justify-content-between"> <!--Див со всеми шарами и подписями-->
               <div class="d-flex flex-column align-items-center">
                 <div> <!--Див с кругом-->
@@ -573,7 +1280,89 @@
               </div>
             </div>
           </div>
-          <div class="d-flex justify-content-between">
+
+          <div class="div2 visible-md">
+
+
+            <div class="d-flex flex-column justify-content-between"> <!--Див со всеми шарами и подписями-->
+              <div class="d-flex justify-content-between">
+                <div class="d-flex flex-column align-items-center">
+                  <div> <!--Див с кругом-->
+                    <img src="img/image1.png" alt="">
+                  </div>
+                  <div>
+                    <h5>Заказ</h5>
+                  </div>
+                  <div class="text-center">
+                    <p>Нажмите на кнопку "Заказать"<br> или напишите нам в<br> WhatsApp</p>
+                  </div>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <div> <!--Див с кругом-->
+                    <img src="img/image2.png" alt="">
+                  </div>
+                  <div>
+                    <h5>Доставка</h5>
+                  </div>
+                  <div class="text-center">
+                    <p>Выберите способ доставки.<br> От 1 до 7 дней.<br> Стоимость доставки от 150 р.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between">
+                <div class="d-flex flex-column buttonss">
+                  <button class="button btn" data-toggle="modal" data-target="#exampleModal2">Заказать</button>
+                  <a href="https://api.whatsapp.com/send?phone=79777747925&amp;text=" class="button btn btn-wha">Whatsapp</a>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between div_22">
+                <div class="d-flex flex-column align-items-center">
+                  <div> <!--Див с кругом-->
+                    <img src="img/image3.png" alt="">
+                  </div>
+                  <div>
+                    <h5>Оплата</h5>
+                  </div>
+                  <div class="text-center">
+                    <p>Оплатите заказ при<br> получении или на сайте</p>
+                  </div>
+                </div>
+                <div class="d-flex flex-column align-items-center pad-raf">
+                  <div> <!--Див с кругом-->
+                    <img src="img/image4.png" alt="">
+                  </div>
+                  <div>
+                    <h5>Возврат</h5>
+                  </div>
+                  <div class="text-center">
+                    <p class="hidden-m">Товар проходит проверку перед<br> отправкой, если что-то<br> не понравится - мы<br> оформим возврат</p>
+                    <p class="visible-m">Товар проходит<br> проверку перед<br> отправкой, если что-то<br> не понравится - мы<br> оформим возврат</p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between">
+                <div class="d-flex flex-column buttonss">
+                </div>
+                <div class="buttonss">
+                  <a href="https://api.whatsapp.com/send?phone=79777747925&amp;text=" class="button btn btn-ref">Оформить возврат</a>
+                </div>
+              </div> 
+            </div>
+
+
+
+            <div class="d-flex flex-column justify-content-between strelka">
+              <div>
+                <img src="img/Vector_tuda.png" alt="">
+              </div>
+              <div>
+                <img src="img/Vector_tuda.png" alt="">
+              </div>
+            </div>
+          </div>
+
+         
+          <div class="d-flex justify-content-between hidden-md">
             <div class="d-flex flex-column buttonss">
               <button class="button btn" data-toggle="modal" data-target="#exampleModal2">Заказать</button>
               <a href="https://api.whatsapp.com/send?phone=79777747925&amp;text=" class="button btn btn-wha">Whatsapp</a>
@@ -591,7 +1380,115 @@
       <section class="instruction">
         <div class="container">
           <h2>Инструкция</h2>
-          <div> <!--Общий див совсеми инструкциями-->
+
+          <div class="visible-m">
+            <div class="d-flex flex-column">
+      
+                <div class="d-flex align-items-center flex-column pic1">
+                  <div>
+                    <img src="img/imag1.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h3>Надеваем корректор как рюкзак</h3>
+                  </div>
+                  <div class="text-center">
+                    <p>пластиковые пряжки должны<br> быть внизу</p>
+                  </div>
+                </div>
+                <div class="pic2 d-flex flex-column align-items-center">
+                  <div>
+                    <img src="img/imag2.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h3>Сторона с микроотверстиями<br> должна плотно прилегать к спине</h3>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center flex-column pic3">
+                  <div>
+                    <img src="img/imag3.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h3>Затягиваем лямки</h3>
+                  </div>
+                  <div class="text-center">
+                    <p>Вы можете регулировать силу<br> натяжения постепенно увеличивая<br> степень нагрузки</p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center flex-column pic4">
+                  <div>
+                    <img src="img/imag4.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h3>Рекомендуется носить <br> корректор по 4 часа в день</h3>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center flex-column pic5">
+                  <div>
+                    <img src="img/imag5.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h3>Ослабляем натяжение лямок <br>и снимаем корректор</h3>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="visible-xs hidden-m">
+            <div class="d-flex flex-column">
+              <div class="d-flex justify-content-between">
+                  <div class="d-flex flex-column pic1">
+                    <div>
+                      <img src="img/imag1.png" alt="">
+                    </div>
+                    <div class="text-center">
+                      <h3>Надеваем корректор<br> как рюкзак</h3>
+                    </div>
+                    <div class="text-center">
+                      <p>пластиковые пряжки должны<br> быть внизу</p>
+                    </div>
+                  </div>
+                  <div class="pic2">
+                    <div>
+                      <img src="img/imag2.png" alt="">
+                    </div>
+                    <div class="text-center">
+                      <h3>Сторона с<br> микроотверстиями должна<br> плотно прилегать к спине</h3>
+                    </div>
+                  </div>
+              </div>
+              <div class="d-flex justify-content-between">
+                <div class="f-flex flex-column pic3">
+                  <div>
+                    <img src="img/imag3.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h3>Затягиваем лямки</h3>
+                  </div>
+                  <div class="text-center">
+                    <p>Вы можете регулировать силу<br> натяжения постепенно<br> увеличивая степень нагрузки</p>
+                  </div>
+                </div>
+                <div class="d-flex flex-column pic4">
+                  <div>
+                    <img src="img/imag4.png" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h3>Рекомендуется носить <br> корректор по 4 часа в день</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex align-items-center flex-column pic5">
+                <div>
+                  <img src="img/imag5.png" alt="">
+                </div>
+                <div class="text-center">
+                  <h3>Ослабляем натяжение лямок <br>и снимаем корректор</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="hidden-xs"> <!--Общий див совсеми инструкциями-->
             <div class="d-flex justify-content-between">
               <div class="d-flex flex-column align-items-center text-center pic1">
                 <div>
@@ -730,7 +1627,7 @@
             <img src="img/logo_monta.png" alt="">
             <a class="telefon" href="tel:+74954814070">+7 (495) 481-40-70</a>
           </div>
-          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex justify-content-between align-items-center hidden-xs">
             <a href="#">О корректоре</a>
             <a href="#">Принцип действия</a>
             <a href="#">Правильная осанка</a>
@@ -739,11 +1636,49 @@
             <a href="#">Как заказать</a>
             <a href="#">Инструкция</a>
           </div>
-          <div class="d-flex justify-content-between align-items-center buttons">
+
+          <div class="d-flex justify-content-center align-items-center visible-xs hidden-m">
+            <div class="d-flex justify-content-between">
+              <a href="#">О корректоре</a>
+              <a href="#">Принцип действия</a>
+              <a href="#">Правильная осанка</a>
+            </div>
+            <div class="d-flex justify-content-between">
+              <a href="#">Отзывы</a>
+              <a href="#">Видео-отзывы</a>
+              <a href="#">Как заказать</a>
+              <a href="#">Инструкция</a>
+            </div>
+          </div>
+          <div class="visible-m">
+          <div class="d-flex flex-column justify-content-between align-items-center">
+            <a href="#">О корректоре</a>
+            <a href="#">Принцип действия</a>
+            <a href="#">Правильная осанка</a>
+            <a href="#">Отзывы</a>
+            <a href="#">Видео-отзывы</a>
+            <a href="#">Как заказать</a>
+            <a href="#">Инструкция</a>
+          </div>
+        </div>
+
+          <div class="d-flex justify-content-between align-items-center buttons hidden-md">
             <a href="https://api.whatsapp.com/send?phone=79777747925&amp;text=" class="button btn btn-orange">Задать вопрос</a>
             <button class="button btn" data-toggle="modal" data-target="#exampleModal2">Заказать</button>
             <a href="https://api.whatsapp.com/send?phone=79777747925&amp;text=" class="button btn btn-green"><img src="img/whats_icon.png" alt=""> whatsapp</a>
             <a href="https://api.whatsapp.com/send?phone=79777747925&amp;text=" class="button btn btn-insta"><img src="img/inst_icon.png" alt=""> Instagram</a>
+          </div>
+          <div class="d-flex flex-column  visible-md">
+            <div class="d-flex justify-content-center buttons">
+                <a href="https://api.whatsapp.com/send?phone=79777747925&amp;text=" class="button btn btn-orange">Задать вопрос</a>
+                <button class="button btn" data-toggle="modal" data-target="#exampleModal2">Заказать</button>
+            </div>
+            <div class="d-flex justify-content-center buttons">
+              <a href="https://api.whatsapp.com/send?phone=79777747925&amp;text=" class="button btn btn-green"><img src="img/whats_icon.png" alt=""> whatsapp</a>
+              <a href="https://api.whatsapp.com/send?phone=79777747925&amp;text=" class="button btn btn-insta"><img src="img/inst_icon.png" alt=""> Instagram</a>
+            </div>
+            
+            
           </div>
           <div class="d-flex flex-column justify-content-between align-items-center">
             <p>Monta © 2020 All Right Reserved</p>
@@ -753,11 +1688,14 @@
 
 
     <!-- Optional JavaScript; choose one of the two! -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

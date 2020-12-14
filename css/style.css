@@ -175,6 +175,26 @@ main{
 }
 .single {
 	top: 250px;
+	max-width: 500px;
+}
+.single img {
+	margin: 0 auto;
+}
+.single .prev {
+	position: absolute;
+    left: 0px;
+	top: 215px;
+	z-index: 9;
+}
+.single .next {
+	position: absolute;
+    right: 0px;
+	top: 215px;
+	z-index: 9;
+}
+.imaga {
+	width: 407px;
+	height: 448px;
 }
 .znak {
 	top: 200px;
@@ -315,7 +335,7 @@ h2{
 	padding-top: 2px;
 }
 .anim {
-    top: 1080px;
+    top: 1022px;
 }
 .anim img {
 	width: 275px;
@@ -361,8 +381,9 @@ h2{
 .line_5 {
 	position: relative;
     top: -132px;
-	left: 85px;
+	left: 398px;
 	margin-bottom: -93px;
+	width: 455px;
 }
 .about-monta .container .buttons {
 	margin-top: 50px;
@@ -394,7 +415,7 @@ h3 {
 	padding-bottom: 102px;
 }
 .privilege {
-	background-color: #000;
+	background-color: #222;
 }
 .privilege h2 {
 	color: #fff;
@@ -471,6 +492,12 @@ h4 {
 	background-repeat: no-repeat;
 	background-position: 48% 67%;
 	height: 920px;
+	background-color: #f0f0f0;
+}
+
+.imaga2 {
+	width: 285px;
+	height: 535px;
 }
 .reviews p {
 	font-size: 20px;
@@ -504,8 +531,9 @@ h4 {
 	top: 45px;
 }
 .single2 {
-	position: relative;
-	top: -430px;
+    position: relative;
+    top: -430px;
+    max-width: 395px;
 }
 .carus_fon {
 	height: 629px;
@@ -518,11 +546,29 @@ h4 {
 	padding-top: 100px;
 	margin-bottom: 95px;
 }
+.reviews2 {
+	display: none;
+}
+.single2 img {
+	margin: 0 auto;
+}
+.reviews .prev {
+	position: absolute;
+	top: 242px;
+    left: 0px;
+	z-index: 9;
+}
+.reviews .next {
+	position: absolute;
+	top: 242px;
+    right: 0px;;
+	z-index: 9;
+}
 .fancy_v {
 	padding: 0 155px;
 	margin-bottom: 85px;
 }
-.video-reviews .buttons .btn-orange {
+.video-reviews .buttons .button-click {
 	font-size: 14px;
 	font-weight: 500;
 	text-transform: none;
@@ -530,6 +576,14 @@ h4 {
 }
 .video-reviews .buttons {
 	padding-bottom: 105px;
+}
+.imaga3 {
+	width: 233px;
+	height: 414px;
+	border-radius: 10px;
+}
+.button-visible .buttons {
+	margin-top: 40px;
 }
 .videos {
 	background-color: #d1d2d4;
@@ -539,19 +593,26 @@ h4 {
 	margin-bottom: 370px;
 }
 .circle_vid1,
-.circle_vid2 {
+.circle_vid2,
+.circle_vid3 {
 	position: relative;
+	background-image: url(../img/Vector_vid.png);
+    background-position: center;
+    width: 432px;
+	height: 432px;
+	overflow: hidden;
+	background-repeat: no-repeat;
 }
 .div1 {
 	margin-right: 50px;
 }
 .circle_vid1 {
-	top: -290px;
-	left: -130px;
+	top: -307px;
+    left: -122px;
 }
 .circle_vid2 {
 	top: -440px;
-    left: 115px;
+	left: 115px;
 }
 .vid1,
 .vid2 {
@@ -776,6 +837,7 @@ h4 {
 	padding-top: 0;
 	max-width: 507px;
 	font-size: 15px;
+	font-weight: 300;
 }
 .faq .buttons {
 	padding-bottom: 100px;
@@ -834,4 +896,17 @@ footer .buttons .btn-insta {
 	justify-content: space-around;
 	background-image: url(../img/insta.png);
 	background-size: cover;
+}
+
+.hide {
+	display: none;
+}
+.show {
+	display: block;
+}
+.visible-md,
+.visible-xs,
+.visible-sm,
+.visible-m {
+	display: none !important;
 }
