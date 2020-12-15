@@ -1,0 +1,225 @@
+@media (max-width:1200px) {
+    .price-block {
+        position: relative;
+        top: -45px;
+        left: 12px;
+    }
+    main .buttons {
+        padding-top: 49px;
+        padding-bottom: 62px;
+    }
+}
+@media (max-width:960px) {
+    .price-block {
+        position: relative;
+        top: -45px;
+        left: -614px;
+    }
+    main .buttons {
+        padding-top: 340px;
+        padding-bottom: 62px;
+    }
+}
+@media (max-width:836px) {
+    .price-block {
+        position: relative;
+        top: -45px;
+        left: -553px;
+    }
+}
+@media (max-width:768px) {
+    .price-block {
+        position: relative;
+        top: -71px;
+        left: -508px;
+    }
+    .elka img {
+        width: 650px;
+    }
+}
+@media (max-width:706px) {
+    .price-block {
+        position: relative;
+        top: -71px;
+        left: -460px;
+    }
+}
+@media (max-width:672px) {
+    .price-block {
+        position: relative;
+        top: -71px;
+        left: -439px;
+    }
+    .elka img {
+        width: 610px;
+    }
+    .elka {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 503px;
+    }
+    main .buttons {
+        padding-top: 322px;
+        padding-bottom: 62px;
+    }
+}
+@media (max-width:640px) {
+    .single {
+        top: 327px;
+        max-width: 500px;
+    }
+    .price-block {
+        position: relative;
+        top: -91px;
+        left: -378px;
+    }
+    .h1-logo .visible-m {
+        display: none !important;
+    }
+    .znak {
+        top: 217px;
+        left: 312px;
+    }
+    .rating {
+        color: #666666;
+        font-size: 15px;
+        left: -57px;
+        top: 751px;
+        overflow: hidden;
+    }
+    .product {
+        top: 619px;
+        left: 296px;
+    }
+    .elka {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 609px;
+    }
+    main .buttons {
+        padding-top: 376px;
+        padding-bottom: 62px;
+    }
+    .anim {
+        top: 1135px;
+    }
+    .single {
+        top: 327px;
+        max-width: 421px;
+    }
+}
+@media (max-width:635px) {
+    .price-block {
+        position: relative;
+        top: -91px;
+        left: -382px;
+    }
+}
+@media (max-width:628px) {
+    .price-block {
+        position: relative;
+        top: -91px;
+        left: -328px;
+    }
+    .elka {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 665px;
+    }
+    .elka img {
+        width: 462px;
+    }
+}
+@media (max-width:550px) {
+    .price-block {
+        position: relative;
+        top: -91px;
+        left: -277px;
+    }
+}
+@media (max-width:480px) {
+    .znak {
+        display: none;
+    }
+    .circled {
+        margin-left: auto;
+        margin-right: 48px;
+    }
+    .price-block {
+        position: relative;
+        top: -91px;
+        left: -121px;
+    }
+    .single {
+        top: 293px;
+        max-width: 357px;
+    }
+    .elka {
+        display: none;
+    }
+    .circle {
+        display: block;
+        top: 368px;
+    }
+    .product {
+        top: 755px;
+        left: -31px;
+    }
+    .elkin {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+        overflow: hidden;
+        top: 228px;
+    }
+    .elkin img {
+        width: auto;
+    }
+    .podarki {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        top: 619px;
+    }
+    .rating {
+        color: #666666;
+        font-size: 15px;
+        left: -57px;
+        top: 677px;
+        overflow: hidden;
+    }
+    main .visible-s {
+        margin-top: 92px;
+        color: #86d6e4;
+        font-size: 30px;
+        font-weight: 700;
+        background-image: url(../img/backmobile.png);
+        width: 100%;
+        background-size: cover;
+    }
+    .product {
+        top: 791px;
+        left: -31px;
+    }
+    main .buttons {
+        padding-top: 19px;
+        padding-bottom: 62px;
+    }
+    .anim {
+        top: 1515px;
+    }
+
+}

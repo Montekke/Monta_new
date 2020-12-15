@@ -1,0 +1,80 @@
+.main {
+    display: none;
+}
+.main-ny {
+    display: block !important;
+    background-color: #a5bdfa;
+}
+.newyear_logo {
+    display: block !important;
+}
+.price-block {
+    position: relative;
+    top: -25px;
+    left: 64px;
+}
+.line-left3 {
+    margin-left: 0px;
+}
+.line-2 {
+    margin-bottom: 47px;
+}
+.line-1 {
+    margin-bottom: -9px;
+}
+.single {
+    top: 225px;
+    max-width: 500px;
+}
+.product {
+    top: 456px;
+    left: 319px;
+}
+.elka,
+.elkin,
+.podarki {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+    text-align: center;
+    top: 473px;
+}
+.line-left2 {
+    margin-left: 0px;
+}
+.line-left3 {
+    margin-left: -31px;
+}
+main .buttons {
+    padding-top: 152px;
+    padding-bottom: 62px;
+}
+h1 span {
+    margin-top: -30px;
+    color: #222222;
+    font-size: 23px;
+    display: block;
+    margin-top: 10px;
+    padding-top: 12px;
+}
+.circled {
+    width: 57px;
+    height: 57px;
+    background-image: url(../img/ny/circled.png);
+    background-position: center;
+    margin: 0 auto;
+}
+.znak {
+    top: 217px;
+    left: 416px;
+}
+.line3 {
+    position: relative;
+    z-index: 99;
+}
+.anim {
+    top: 1041px;
+}
+

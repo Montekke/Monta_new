@@ -468,6 +468,29 @@
         left: -14px;
     }
 }
+@media (max-width:825px) {
+    .new {
+        transform: rotate(352.05deg);
+        font-size: 34px;
+        color: #ffffff;
+        top: -82px;
+        left: -14px;
+    }
+    .old {
+        transform: rotate(352.05deg);
+        color: #7ba8ec;
+        font-size: 19px;
+        text-decoration: line-through;
+        top: -80px;
+        left: -50px;
+        font-weight: 400;
+    }
+    .price-block {
+        position: relative;
+        top: -2px;
+        left: -562px;
+    }
+}
 @media (max-width:768px) {
     .strelka {
         position: relative;
@@ -495,7 +518,7 @@
         color: #7ba8ec;
         font-size: 19px;
         text-decoration: line-through;
-        top: -92px;
+        top: -84px;
         left: -51px;
         font-weight: 400;
     }
@@ -503,7 +526,7 @@
         transform: rotate(352.05deg);
         font-size: 34px;
         color: #ffffff;
-        top: -96px;
+        top: -84px;
         left: -14px;
     }
     .anim img {
@@ -602,6 +625,28 @@
     }
 }
 @media (max-width:640px) {
+    .new {
+        transform: rotate(352.05deg);
+        font-size: 34px;
+        color: #ffffff;
+        top: -93px;
+        left: -14px;
+    }
+    .old {
+        transform: rotate(352.05deg);
+        color: #7ba8ec;
+        font-size: 19px;
+        text-decoration: line-through;
+        top: -89px;
+        left: -51px;
+        font-weight: 400;
+    }
+
+}
+@media (max-width:640px) {
+    .telefon:after {
+        display: none;
+    }
     .privilege .container {
         max-width: 455px;
     }
@@ -612,6 +657,13 @@
         font-size: 22px;
         letter-spacing: 1.32px;
         color: #ceaae2;
+    }
+    .logo-text:before {
+        content: '';
+        display: block;
+        height: 1px;
+        background: #4d4d4d;
+	    margin: 0 auto;
     }
     .visible-m {
         display: block !important;
@@ -661,7 +713,7 @@
         color: #7ba8ec;
         font-size: 19px;
         text-decoration: line-through;
-        top: -103px;
+        top: -94px;
         left: -51px;
         font-weight: 400;
     }
@@ -669,7 +721,7 @@
         transform: rotate(352.05deg);
         font-size: 34px;
         color: #ffffff;
-        top: -104px;
+        top: -98px;
         left: -14px;
     }
     main .buttons {
@@ -907,5 +959,251 @@
     }
     .pad-raf {
         margin-right: 22px;
+    }
+}
+@media (max-width:570px) {
+    .old {
+        transform: rotate(352.05deg);
+        color: #7ba8ec;
+        font-size: 19px;
+        text-decoration: line-through;
+        top: -100px;
+        left: -51px;
+        font-weight: 400;
+    }
+    .new {
+        transform: rotate(352.05deg);
+        font-size: 34px;
+        color: #ffffff;
+        top: -102px;
+        left: -14px;
+    }
+
+}
+@media (max-width:500px) {
+    .old {
+        transform: rotate(352.05deg);
+        color: #7ba8ec;
+        font-size: 19px;
+        text-decoration: line-through;
+        top: -105px;
+        left: -51px;
+        font-weight: 400;
+    }
+    .new {
+        transform: rotate(352.05deg);
+        font-size: 34px;
+        color: #ffffff;
+        top: -109px;
+        left: -14px;
+    }
+    footer .btn-green img, footer .btn-insta img {
+        position: absolute;
+        left: 25px;
+        top: 17px;
+    }
+}
+@media (max-width:480px) {
+    .whatss img {
+        width: 25px;
+    }
+    h1 {
+        font-size: 42px;
+        margin-top: -11px;
+    }
+    header .btn {
+        width: 102px;
+        height: 26px;
+        font-size: 11px;
+        padding-bottom: 20px;
+    }
+    .znak {
+        top: 235px;
+        left: 193px;
+        width: 88px;
+    }
+    .price-block {
+        position: relative;
+        top: -42px;
+        left: -203px;
+    }
+    .old {
+        transform: rotate(352.05deg);
+        color: #7ba8ec;
+        font-size: 19px;
+        text-decoration: line-through;
+        top: -106px;
+        left: -51px;
+        font-weight: 400;
+    }
+    .new {
+        transform: rotate(352.05deg);
+        font-size: 34px;
+        color: #ffffff;
+        top: -110px;
+        left: -14px;
+    }
+    .single {
+        top: 348px;
+        max-width: 385px;
+    }
+    .single .slick-slide img {
+        width: 365px;
+        height: 407px;
+    }
+    .visible-s {
+        
+        display: block !important;
+    }
+    .hidden-s {
+        display: none !important;
+    }
+    main .visible-s {
+        margin-top: 170px;
+        color: #86d6e4;
+        font-size: 30px;
+        font-weight: 700;
+        background-image: url(../img/backmobile.png);
+        width: 100%;
+        background-size: cover;
+
+    }
+    main .visible-s p {
+        color: #ffffff;
+        font-size: 13px;
+    }
+    main .container {
+        padding: 0;
+    }
+    .text-image {
+        color: #fff;
+    }
+    .mobile_h {
+        padding-top: 161px;
+        max-width: 328px;
+        margin: 0 auto;
+    }
+    .rating {
+        color: #666666;
+        font-size: 15px;
+        left: -5px;
+        top: 715px;
+        overflow: hidden;
+    }
+    .circle {
+        display: block;
+        top: 392px
+    }
+    .circle img {
+        width: 327px;
+    }
+    .product {
+        top: 815px;
+        left: 0;
+    }
+    .buttons {
+        flex-direction: column-reverse;
+    }
+    .buttons .btn {
+        display: block;
+        width: 330px;
+    }
+    main .buttons {
+        padding-top: 0px;
+    }
+    .anim {
+        top: 1520px;
+    }
+    .about-monta .buttons .btn {
+        padding: 15px;
+    }
+    .about-monta .buttons .btn-mini {
+        padding: 0;
+    }
+    .about-monta .container .buttons {
+        margin-top: 72px;
+        padding-bottom: 100px;
+    }
+    .buttons .btn-orange {
+        padding-top: 15px;
+    }
+    .right-os, .nonright-os {
+        text-align: center;
+    }
+    .privilege .buttons {
+        margin-top: 695px;
+        padding-bottom: 50px;
+    }
+    .rew_heart {
+        position: relative;
+        top: -625px;
+        width: 377px;
+    }
+    .single_fon img {
+        width: 379px;
+    }
+    .single2 {
+        position: relative;
+        top: -369px;
+        max-width: 395px;
+    }    
+    .single_fon {
+        position: relative;
+        top: 82px;
+    }
+    .video-reviews .buttons .btn {
+        font-size: 14px;
+        font-weight: 100;
+    }
+    .video-reviews .buttons .button-visible {
+        padding-top: 10px;
+    }
+    .strelka img {
+        margin-bottom: 416px;
+        width: 17px;
+    }
+    .strelka {
+        position: relative;
+        width: auto;
+        top: -843px;
+        left: 0%;
+        margin: 0 auto;
+    }
+    .padddra {
+        margin-left: 17px;
+    }
+    .pad-raf {
+        margin-right: 15px;
+    }
+    .how-buy .buttonss {
+        margin-bottom: 79px;
+        z-index: 999;
+        width: 203px;
+    }
+    .how-buy .buttonss .btn {
+        width: 176px;
+    }
+    .how-buy .buttons {
+        margin-top: 545px;
+        padding-bottom: 50px;
+    }
+    #accordion {
+        width: 377px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .card-header {
+        width: 280px;
+    }
+    footer .buttons .btn {
+        width: 100%;
+        margin-left: 0;
+    }
+    footer .buttons .btn-insta {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-image: url(../img/insta-m.png);
+        background-size: cover;
     }
 }
