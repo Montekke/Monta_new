@@ -209,6 +209,9 @@
     .lastbaba {
        display: none; 
     }
+    .videos {
+        overflow: hidden;
+    }
     .videos h2 {
         font-size: 38px;
         margin-bottom: 0;
@@ -1048,7 +1051,7 @@
         max-width: 385px;
     }
     .single .slick-slide img {
-        width: 365px;
+        width: 355px;
         height: 407px;
     }
     .visible-s {

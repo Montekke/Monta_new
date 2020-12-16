@@ -273,6 +273,7 @@ main .buttons {
 	border-radius: 50%;
 	position: relative;
 	top: -150px;
+	cursor: pointer;
 }
 .carousel-circle {
 	width: 500px;
@@ -773,6 +774,7 @@ h4 {
 	width: 762px;
 	margin: 0 auto;
 	margin-bottom: 80px;
+	box-shadow: none;
 }
 .card {
 	position: relative;
@@ -787,6 +789,7 @@ h4 {
 	border: none;
 	border-radius: 0;
 	margin-bottom: 4px;
+	box-shadow: none;
 }
 .card-header:first-child {
 	border-radius: 0;
@@ -798,6 +801,7 @@ h4 {
 	margin-bottom: 0;
 	background-color: transparent;
 	border-bottom: none;
+	box-shadow: none;
 }
 .card-header .btn {
 	color: #000000;
@@ -811,6 +815,7 @@ h4 {
 	padding-bottom: 17px;
 	text-decoration: none;
 	height: 72px;
+	box-shadow: none;
 }
 .plus {
 	width: 19px;
@@ -821,15 +826,17 @@ h4 {
 	position: absolute;
 	right: 48px;
 	top: 27px;
+	transition: all 20ms;
+	transform: scale(1.5) rotate(45deg);
 }
 .coll {
 	background-image: url(../img/plus.png);
 	background-size: cover;
-	width: 29px;
-	height: 29px;
 	background-repeat: no-repeat;
-	right: 40px;
+	right: 48px;
 	top: 22px;
+	transition: all 20ms;
+	transform: scale(1.5) rotate(45deg);
 }
 .card-body {
 	color: #000000;
@@ -841,6 +848,13 @@ h4 {
 	font-size: 15px;
 	font-weight: 300;
 }
+.collapsed .coll {
+	transform: scale(1) rotate(0deg);
+}
+.collapsed .plus {
+	transform: scale(1) rotate(0deg);
+}
+
 .faq .buttons {
 	padding-bottom: 100px;
 }

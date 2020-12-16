@@ -223,3 +223,224 @@
     }
 
 }
+@media (max-width:425px) {
+    h1 {
+        font-size: 36px;
+        margin-top: -11px;
+    }
+    header {
+        height: 149px;
+    }
+    .h1-logo {
+        background-position: center top;
+        top: 136px;
+        background-size: 690px;
+    }
+    .price-block {
+        position: relative;
+        top: -109px;
+        left: -97px;
+    }
+    .logo img {
+        width: 148px;
+    }
+    .desc {
+        font-size: 10px;
+    }
+    .assessment {
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0 auto;
+    }
+    .osanka img {
+        width: 340px;
+        height: 328px;
+    }
+    .osanka {
+        position: relative;
+        top: -1072px;
+    }
+    .privilege .visible-m {
+        margin-top: 388px;
+    }
+    .privilege .buttons {
+        margin-top: 608px;
+        padding-bottom: 50px;
+    }
+    .rew_heart {
+        position: relative;
+        top: -625px;
+        width: 337px;
+    }
+    .strelka {
+        position: relative;
+        width: auto;
+        top: -863px;
+        left: 0%;
+        margin: 0 auto;
+    }
+    .strelka img {
+        margin-bottom: 435px;
+        width: 17px;
+    }
+    .padddra {
+        margin-left: 3px;
+    }
+    .pad-raf {
+        margin-right: 5px;
+    }
+    .how-buy .buttons {
+        margin-top: 575px;
+        padding-bottom: 50px;
+    }
+    #accordion {
+        width: 325px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width:375px) {
+    .logo img {
+        width: 101px;
+    }
+    .desc {
+        font-size: 9px;
+    }
+    .whatss img {
+        width: 20px;
+    }
+    header .btn {
+        width: 102px;
+        height: 26px;
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+    header .btn {
+        width: 74px;
+        height: 26px;
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+    header .phone {
+        font-size: 13px;
+    }
+    .logo-text {
+        font-size: 18px;
+        letter-spacing: 1.32px;
+        color: #ceaae2;
+    }
+    h1 {
+        font-size: 32px;
+        margin-top: -13px;
+    }
+    .h1-logo {
+        background-position: center top;
+        top: 100px;
+        background-size: 690px;
+    }
+    .circled {
+        margin-left: auto;
+        margin-right: 15px;
+    }
+    .price-block {
+        position: relative;
+        top: -105px;
+        left: -90px;
+    }
+    .rating {
+        color: #666666;
+        font-size: 15px;
+        left: 8px;
+        top: 677px;
+        overflow: hidden;
+    }
+    .buttons .btn {
+        display: block;
+        width: 296px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .about-monta {
+        overflow: hidden;
+    }
+    .operating-priciple img {
+        width: 290px;
+    }
+    .operating-priciple h2 {
+        font-size: 28px;
+    }
+    .assessment {
+        font-size: 11px;
+        font-weight: 700;
+        margin: 0 auto;
+    }
+    .privilege h4 {
+        font-size: 12px;
+    }
+    .reviews {
+        overflow: hidden;
+    }
+    .single_fon {
+        position: relative;
+        top: 82px;
+        left: -20px;
+    }
+    .video-reviews img {
+        width: 133px;
+        height: 244px;
+    }
+    .videos img {
+        width: 274px;
+    }
+    .vid_h3 h3 {
+        margin-right: 120px;
+        font-size: 16px;
+    }
+    .vid_h33 h3 {
+        margin-right: -110px;
+    }
+    .circle_vid1, .circle_vid2 {
+        background-size: 256px;
+        overflow: hidden;
+    }
+    .how-use h2 {
+        font-size: 22px;
+    }
+    .how-use {
+        overflow: hidden;
+    }
+    .pict_1 img {
+        width: 146px;
+    }
+    .pmm img {
+        width: 150px;
+    }    
+    .strelka {
+        position: relative;
+        width: auto;
+        top: -861px;
+        left: 0%;
+        margin: 0 auto;
+    }
+    .strelka img {
+        margin-bottom: 431px;
+        width: 17px;
+    }
+    #accordion {
+        width: 277px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .video-reviews .container {
+        max-width: 322px;
+    }
+    
+}
+@media (max-width:339px) {
+    .price-block {
+        position: relative;
+        top: -105px;
+        left: -60px;
+    }
+}
